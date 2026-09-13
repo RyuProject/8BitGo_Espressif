@@ -1,0 +1,24 @@
+## IDF Component Manager Manifest File
+dependencies:
+  # ESP32-P4 无内置 Wi-Fi，通过 ESP32-C6 (SDIO) 使用标准 esp_wifi API
+  espressif/esp_wifi_remote: "^1.6.0"
+  espressif/esp_hosted: "^3.0.7"
+  # 8bitgo 开放平台 JSON 解析
+  espressif/cjson: "^1.7.19"
+  # SDL3 已 vendor 化到 components/sdl3（源自 georgik/esp-idf-component-SDL，
+  # 依赖改为本地 components/gc_sdl_bsp shim；不再从 registry 拉取）
+
+  # 本地组件
+  gc_prefs:
+    path: ../components/gc_prefs
+  gc_net:
+    path: ../components/gc_net
+  gc_api:
+    path: ../components/gc_api
+  gc_store:
+    path: ../components/gc_store
+  gc_emu:
+    path: ../components/gc_emu
+
+  espressif/esp32_p4_function_ev_board:
+    path: ../components/esp32_p4_function_ev_board

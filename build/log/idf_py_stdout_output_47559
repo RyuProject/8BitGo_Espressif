@@ -1,0 +1,305 @@
+Command: ninja all
+[1/217] Linking C static library esp-idf/gc_net/libgc_net.a
+[2/217] Linking C static library esp-idf/gc_store/libgc_store.a
+[3/217] Linking C static library esp-idf/gc_font/libgc_font.a
+[4/217] Linking C static library esp-idf/gc_emu/libgc_emu.a
+[5/217] Generating  IPA configuration file...
+[6/217] Building C object esp-idf/esp_hal_jpeg/CMakeFiles/__idf_esp_hal_jpeg.dir/esp32p4/jpeg_periph.c.obj
+[7/217] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.obj
+[8/217] Building C object esp-idf/chmorgan__esp-libhelix-mp3/CMakeFiles/__idf_chmorgan__esp-libhelix-mp3.dir/libhelix-mp3/real/buffers.c.obj
+[9/217] Building C object esp-idf/chmorgan__esp-libhelix-mp3/CMakeFiles/__idf_chmorgan__esp-libhelix-mp3.dir/libhelix-mp3/mp3dec.c.obj
+[10/217] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.obj
+[11/217] Building C object esp-idf/esp_hal_jpeg/CMakeFiles/__idf_esp_hal_jpeg.dir/jpeg_hal.c.obj
+[12/217] Building C object esp-idf/esp_driver_isp/CMakeFiles/__idf_esp_driver_isp.dir/src/isp_crop.c.obj
+[13/217] Building C object esp-idf/espressif__esp_sccb_intf/CMakeFiles/__idf_espressif__esp_sccb_intf.dir/sccb_i2c/src/sccb_i2c.c.obj
+[14/217] Building C object esp-idf/gc_ble/CMakeFiles/__idf_gc_ble.dir/gc_ble.c.obj
+[15/217] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj
+[16/217] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj
+[17/217] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.obj
+[18/217] Building C object esp-idf/espressif__esp_sccb_intf/CMakeFiles/__idf_espressif__esp_sccb_intf.dir/src/sccb.c.obj
+[19/217] Linking C static library esp-idf/gc_ble/libgc_ble.a
+[20/217] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.obj
+[21/217] Building C object esp-idf/esp_hal_ana_cmpr/CMakeFiles/__idf_esp_hal_ana_cmpr.dir/esp32p4/ana_cmpr_periph.c.obj
+[22/217] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj
+[23/217] Linking C static library esp-idf/console/libconsole.a
+[24/217] Linking C static library esp-idf/esp_driver_isp/libesp_driver_isp.a
+[25/217] Linking C static library esp-idf/esp_hal_jpeg/libesp_hal_jpeg.a
+[26/217] Building C object esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/dvp_share_ctrl.c.obj
+[27/217] Building C object esp-idf/esp_driver_jpeg/CMakeFiles/__idf_esp_driver_jpeg.dir/jpeg_param.c.obj
+[28/217] Building C object esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/esp_cam_ctlr.c.obj
+[29/217] Building C object esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/dvp/src/esp_cam_ctlr_dvp_gdma.c.obj
+[30/217] Building C object esp-idf/esp_driver_jpeg/CMakeFiles/__idf_esp_driver_jpeg.dir/jpeg_common.c.obj
+[31/217] Building C object esp-idf/gc_ui/CMakeFiles/__idf_gc_ui.dir/gc_ui_wifi.c.obj
+[32/217] Building C object esp-idf/gc_ui/CMakeFiles/__idf_gc_ui.dir/gc_ui_theme.c.obj
+[33/217] Building C object esp-idf/esp_hal_mcpwm/CMakeFiles/__idf_esp_hal_mcpwm.dir/esp32p4/mcpwm_periph.c.obj
+[34/217] Building C object esp-idf/esp_hal_mcpwm/CMakeFiles/__idf_esp_hal_mcpwm.dir/mcpwm_hal.c.obj
+[35/217] Building C object esp-idf/esp_hal_pcnt/CMakeFiles/__idf_esp_hal_pcnt.dir/pcnt_hal.c.obj
+[36/217] Building C object esp-idf/esp_hal_pcnt/CMakeFiles/__idf_esp_hal_pcnt.dir/esp32p4/pcnt_periph.c.obj
+[37/217] Building C object esp-idf/esp_hal_rmt/CMakeFiles/__idf_esp_hal_rmt.dir/esp32p4/rmt_periph.c.obj
+[38/217] Building C object esp-idf/esp_hal_rmt/CMakeFiles/__idf_esp_hal_rmt.dir/rmt_hal.c.obj
+[39/217] Building C object esp-idf/esp_driver_jpeg/CMakeFiles/__idf_esp_driver_jpeg.dir/jpeg_emit_marker.c.obj
+[40/217] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_netif_glue.c.obj
+[41/217] Building C object esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/csi/src/esp_cam_ctlr_csi.c.obj
+[42/217] Building C object esp-idf/esp_driver_jpeg/CMakeFiles/__idf_esp_driver_jpeg.dir/jpeg_parse_marker.c.obj
+[43/217] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/mac/esp_eth_mac_esp_dma.c.obj
+[44/217] Building C object esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/isp_dvp/src/esp_cam_ctlr_isp_dvp.c.obj
+[45/217] Building C object esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/dvp/src/esp_cam_ctlr_dvp_cam.c.obj
+[46/217] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_generic.c.obj
+[47/217] Building C object esp-idf/esp_driver_jpeg/CMakeFiles/__idf_esp_driver_jpeg.dir/jpeg_encode.c.obj
+[48/217] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/constants.pb-c.c.obj
+[49/217] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec0.pb-c.c.obj
+[50/217] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth.c.obj
+[51/217] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/session.pb-c.c.obj
+[52/217] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec1.pb-c.c.obj
+[53/217] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec2.pb-c.c.obj
+[54/217] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/common/protocomm.c.obj
+[55/217] Building C object esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj
+[56/217] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/mac/esp_eth_mac_esp_gpio.c.obj
+[57/217] Building C object esp-idf/esp_driver_jpeg/CMakeFiles/__idf_esp_driver_jpeg.dir/jpeg_decode.c.obj
+[58/217] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_802_3.c.obj
+[59/217] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj
+[60/217] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_console.c.obj
+[61/217] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security0.c.obj
+[62/217] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/mac/esp_eth_mac_esp.c.obj
+[63/217] Building C object esp-idf/espressif__esp_serial_slave_link/CMakeFiles/__idf_espressif__esp_serial_slave_link.dir/essl_sdio_defs.c.obj
+[64/217] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_httpd.c.obj
+[65/217] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp_mpi.c.obj
+[66/217] Linking C static library esp-idf/chmorgan__esp-libhelix-mp3/libchmorgan__esp-libhelix-mp3.a
+[67/217] Building C object esp-idf/espressif__esp_serial_slave_link/CMakeFiles/__idf_espressif__esp_serial_slave_link.dir/essl.c.obj
+[68/217] Building C object esp-idf/gc_ui/CMakeFiles/__idf_gc_ui.dir/gc_ui.c.obj
+[69/217] Linking C static library esp-idf/gc_ui/libgc_ui.a
+[70/217] Building C object esp-idf/espressif__esp_serial_slave_link/CMakeFiles/__idf_espressif__esp_serial_slave_link.dir/essl_sdio.c.obj
+[71/217] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security2.c.obj
+[72/217] Building CXX object esp-idf/chmorgan__esp-audio-player/CMakeFiles/__idf_chmorgan__esp-audio-player.dir/audio_stream_io.cpp.obj
+[73/217] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security1.c.obj
+[74/217] Building C object esp-idf/gc_provision/CMakeFiles/__idf_gc_provision.dir/gc_provision.c.obj
+[75/217] Building C object esp-idf/espressif__esp_serial_slave_link/CMakeFiles/__idf_espressif__esp_serial_slave_link.dir/essl_spi.c.obj
+[76/217] Linking C static library esp-idf/espressif__esp_sccb_intf/libespressif__esp_sccb_intf.a
+[77/217] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp.c.obj
+[78/217] Building C object esp-idf/chmorgan__esp-file-iterator/CMakeFiles/__idf_chmorgan__esp-file-iterator.dir/file_iterator.c.obj
+[79/217] Building CXX object esp-idf/chmorgan__esp-audio-player/CMakeFiles/__idf_chmorgan__esp-audio-player.dir/audio_mixer.cpp.obj
+[80/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/port/src/esp_h264_cache.c.obj
+[81/217] Building CXX object esp-idf/chmorgan__esp-audio-player/CMakeFiles/__idf_chmorgan__esp-audio-player.dir/audio_wav.cpp.obj
+[82/217] Building C object esp-idf/esp_cam_sensor/CMakeFiles/__idf_esp_cam_sensor.dir/src/esp_cam_sensor_xclk.c.obj
+[83/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/port/src/esp_h264_alloc.c.obj
+[84/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/interface/src/esp_h264_dec.c.obj
+[85/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/interface/src/esp_h264_dec_param.c.obj
+[86/217] Building CXX object esp-idf/chmorgan__esp-audio-player/CMakeFiles/__idf_chmorgan__esp-audio-player.dir/audio_player.cpp.obj
+[87/217] Building C object esp-idf/esp_cam_sensor/CMakeFiles/__idf_esp_cam_sensor.dir/src/esp_cam_sensor.c.obj
+[88/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/interface/src/esp_h264_enc_dual.c.obj
+[89/217] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_nimble.c.obj
+[90/217] Building C object esp-idf/gc_library/CMakeFiles/__idf_gc_library.dir/gc_library.c.obj
+[91/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/interface/src/esp_h264_enc_single.c.obj
+[92/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/sw/src/h264_color_convert.c.obj
+[93/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/sw/src/esp_h264_enc_sw_param.c.obj
+[94/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/sw/src/esp_h264_dec_sw.c.obj
+[95/217] Building CXX object esp-idf/chmorgan__esp-audio-player/CMakeFiles/__idf_chmorgan__esp-audio-player.dir/audio_http_stream.cpp.obj
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/chmorgan__esp-audio-player/audio_http_stream.cpp: In function 'esp_err_t http_event_handler(esp_http_client_event_t*)':
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/chmorgan__esp-audio-player/audio_http_stream.cpp:296:12: warning: enumeration value 'HTTP_EVENT_ON_HEADERS_COMPLETE' not handled in switch [-Wswitch]
+  296 |     switch (evt->event_id) {
+      |            ^
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/chmorgan__esp-audio-player/audio_http_stream.cpp:296:12: warning: enumeration value 'HTTP_EVENT_ON_STATUS_CODE' not handled in switch [-Wswitch]
+[96/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/interface/src/esp_h264_enc_param.c.obj
+[97/217] Building C object esp-idf/espressif__esp_ipa/CMakeFiles/__idf_espressif__esp_ipa.dir/esp_video_ipa_config.c.obj
+[98/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/interface/src/esp_h264_enc_param_hw.c.obj
+[99/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/src/h264_rc.c.obj
+[100/217] Building CXX object esp-idf/chmorgan__esp-audio-player/CMakeFiles/__idf_chmorgan__esp-audio-player.dir/audio_mp3.cpp.obj
+[101/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/hal/esp32p4/h264_dma_hal.c.obj
+[102/217] Building C object esp-idf/espressif__esp_ipa/CMakeFiles/__idf_espressif__esp_ipa.dir/src/version.c.obj
+[103/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/sw/src/esp_h264_enc_single_sw.c.obj
+[104/217] Linking C static library esp-idf/unity/libunity.a
+[105/217] Linking C static library esp-idf/esp_hal_ana_cmpr/libesp_hal_ana_cmpr.a
+[106/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/hal/esp32p4/h264_hal.c.obj
+[107/217] Building C object esp-idf/cmock/CMakeFiles/__idf_cmock.dir/CMock/src/cmock.c.obj
+[108/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/src/esp_h264_enc_dual_hw.c.obj
+[109/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/src/esp_h264_enc_single_hw.c.obj
+[110/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/src/h264_nal.c.obj
+[111/217] Building C object esp-idf/esp_driver_gptimer/CMakeFiles/__idf_esp_driver_gptimer.dir/src/gptimer_etm.c.obj
+[112/217] Linking C static library esp-idf/esp_driver_cam/libesp_driver_cam.a
+[113/217] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/src/esp_h264_enc_hw_param.c.obj
+[114/217] Linking C static library esp-idf/esp_hal_mcpwm/libesp_hal_mcpwm.a
+[115/217] Linking C static library esp-idf/esp_driver_jpeg/libesp_driver_jpeg.a
+[116/217] Building C object esp-idf/esp_blockdev_util/CMakeFiles/__idf_esp_blockdev_util.dir/memory.c.obj
+[117/217] Building C object esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/protobuf-c/protobuf-c/protobuf-c.c.obj
+[118/217] Building C object esp-idf/esp_driver_gptimer/CMakeFiles/__idf_esp_driver_gptimer.dir/src/gptimer_common.c.obj
+[119/217] Building C object esp-idf/esp_driver_ana_cmpr/CMakeFiles/__idf_esp_driver_ana_cmpr.dir/ana_cmpr_etm.c.obj
+[120/217] Building C object esp-idf/esp_blockdev_util/CMakeFiles/__idf_esp_blockdev_util.dir/generic_partition.c.obj
+[121/217] Linking C static library esp-idf/protobuf-c/libprotobuf-c.a
+[122/217] Linking C static library esp-idf/esp_hal_pcnt/libesp_hal_pcnt.a
+[123/217] Building C object esp-idf/esp_driver_gptimer/CMakeFiles/__idf_esp_driver_gptimer.dir/src/gptimer.c.obj
+[124/217] Linking C static library esp-idf/esp_hal_rmt/libesp_hal_rmt.a
+[125/217] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_cmpr.c.obj
+[126/217] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_etm.c.obj
+[127/217] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_com.c.obj
+[128/217] Building C object esp-idf/esp_driver_ana_cmpr/CMakeFiles/__idf_esp_driver_ana_cmpr.dir/ana_cmpr.c.obj
+[129/217] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.obj
+[130/217] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_sync.c.obj
+[131/217] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_fault.c.obj
+[132/217] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.obj
+[133/217] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.obj
+[134/217] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_gen.c.obj
+[135/217] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.obj
+[136/217] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.obj
+[137/217] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_oper.c.obj
+[138/217] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_cap.c.obj
+[139/217] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bs.c.obj
+[140/217] Building C object esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.obj
+[141/217] Linking C static library esp-idf/esp_eth/libesp_eth.a
+[142/217] Building C object esp-idf/esp_driver_tsens/CMakeFiles/__idf_esp_driver_tsens.dir/src/temperature_sensor_etm.c.obj
+[143/217] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_timer.c.obj
+[144/217] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj
+[145/217] Building C object esp-idf/esp_driver_twai/CMakeFiles/__idf_esp_driver_twai.dir/esp_twai.c.obj
+[146/217] Linking C static library esp-idf/esp_https_server/libesp_https_server.a
+[147/217] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/nimble_hidd.c.obj
+[148/217] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/nimble_hidh.c.obj
+[149/217] Linking C static library esp-idf/protocomm/libprotocomm.a
+[150/217] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj
+[151/217] Building C object esp-idf/esp_driver_tsens/CMakeFiles/__idf_esp_driver_tsens.dir/src/temperature_sensor.c.obj
+[152/217] Building C object esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj
+[153/217] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_transport_ble.c.obj
+[154/217] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_transport_httpd.c.obj
+[155/217] Linking C static library esp-idf/espressif__esp_serial_slave_link/libespressif__esp_serial_slave_link.a
+[156/217] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_handler.c.obj
+[157/217] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.obj
+[158/217] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl.c.obj
+[159/217] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/proto-c/esp_local_ctrl.pb-c.c.obj
+[160/217] Building C object esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/common/touch_sens_common.c.obj
+[161/217] Building CXX object esp-idf/espressif__eppp_link/CMakeFiles/__idf_espressif__eppp_link.dir/eppp_link_netif.cpp.obj
+[162/217] Building C object esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.obj
+[163/217] Building C object esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.obj
+[164/217] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj
+[165/217] Linking C static library esp-idf/gc_library/libgc_library.a
+[166/217] Building C object esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/hw_ver3/touch_version_specific.c.obj
+[167/217] Linking C static library esp-idf/gc_provision/libgc_provision.a
+[168/217] Building C object esp-idf/esp_driver_i3c/CMakeFiles/__idf_esp_driver_i3c.dir/i3c_master.c.obj
+[169/217] Building C object esp-idf/espressif__eppp_link/CMakeFiles/__idf_espressif__eppp_link.dir/eppp_link.c.obj
+[170/217] Building C object esp-idf/esp_driver_twai/CMakeFiles/__idf_esp_driver_twai.dir/esp_twai_onchip.c.obj
+[171/217] Linking C static library esp-idf/chmorgan__esp-file-iterator/libchmorgan__esp-file-iterator.a
+[172/217] Linking C static library esp-idf/chmorgan__esp-audio-player/libchmorgan__esp-audio-player.a
+[173/217] Linking C static library esp-idf/esp_cam_sensor/libesp_cam_sensor.a
+[174/217] Linking C static library esp-idf/espressif__esp_ipa/libespressif__esp_ipa.a
+[175/217] Building C object esp-idf/espressif__eppp_link/CMakeFiles/__idf_espressif__eppp_link.dir/eppp_netif_tun.c.obj
+[176/217] Building C object esp-idf/espressif__eppp_link/CMakeFiles/__idf_espressif__eppp_link.dir/eppp_uart.c.obj
+[177/217] Linking C static library esp-idf/espressif__esp_h264/libespressif__esp_h264.a
+[178/217] Linking C static library esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a
+[179/217] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj
+[180/217] Linking C static library esp-idf/cmock/libcmock.a
+[181/217] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/esp_video_mman.c.obj
+[182/217] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/esp_video_buffer.c.obj
+[183/217] Linking C static library esp-idf/esp_blockdev_util/libesp_blockdev_util.a
+[184/217] Linking C static library esp-idf/esp_driver_ana_cmpr/libesp_driver_ana_cmpr.a
+[185/217] Linking C static library esp-idf/esp_driver_i3c/libesp_driver_i3c.a
+[186/217] Linking C static library esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
+[187/217] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/esp_video_vfs.c.obj
+[188/217] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/esp_video_init.c.obj
+[189/217] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/esp_video_sensor.c.obj
+[190/217] Linking C static library esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
+[191/217] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/esp_video_ioctl.c.obj
+[192/217] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/device/esp_video_dvp_device.c.obj
+[193/217] Linking C static library esp-idf/esp_driver_sdm/libesp_driver_sdm.a
+[194/217] Linking C static library esp-idf/esp_driver_rmt/libesp_driver_rmt.a
+[195/217] Building C object esp-idf/bsp_extra/CMakeFiles/__idf_bsp_extra.dir/src/bsp_board_extra.c.obj
+In file included from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/bsp_extra/src/bsp_board_extra.c:16:
+/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/driver/i2c/include/driver/i2c.h:13:9: note: '#pragma message: 
+================================ CRITICAL WARNING ================================
+This legacy I2C driver (driver/i2c.h) is officially END-OF-LIFE (EOL) as of ESP-IDF v6.0.
+
+1. NO SUPPORT: ESP-IDF will not provide updates, bug fixes, or security patches timely.
+2. PLANNED REMOVAL: This driver WILL BE REMOVED in ESP-IDF v7.0 (next major release).
+3. ACTION REQUIRED: Migrate to 'driver/i2c_master.h' or 'driver/i2c_slave.h' immediately.
+   - If you are a library maintainer, please update your code.
+   - If you are using 3rd-party libraries, contact the authors for updates.
+
+4. SUPPRESS WARNING: Set Kconfig 'CONFIG_I2C_SUPPRESS_DEPRECATE_WARN=y' to silent
+   this warning. However, by doing so, YOU ASSUME ALL RISKS including potential
+   security vulnerabilities, system instability, and future incompatibility.
+
+For API reference of the new I2C driver, see: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/i2c.html
+For other items about migration, see: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/migration-guides/index.html
+==================================================================================
+   '
+   13 | #pragma message("\n" \
+      |         ^~~~~~~
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/bsp_extra/src/bsp_board_extra.c: In function 'bsp_extra_i2s_write':
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/bsp_extra/src/bsp_board_extra.c:77:48: warning: passing argument 2 of 'esp_codec_dev_write' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   77 |     ret = esp_codec_dev_write(play_dev_handle, audio_buffer, len);
+      |                                                ^~~~~~~~~~~~
+In file included from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp32_p4_function_ev_board/include/bsp/esp32_p4_function_ev_board.h:21,
+                 from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp32_p4_function_ev_board/include/bsp/esp-bsp.h:8,
+                 from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/bsp_extra/src/bsp_board_extra.c:21:
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_codec_dev/include/esp_codec_dev.h:158:61: note: expected 'void *' but argument is of type 'const void *'
+  158 | int esp_codec_dev_write(esp_codec_dev_handle_t codec, void *data, int len);
+      |                                                       ~~~~~~^~~~
+[196/217] Linking C static library esp-idf/esp_driver_touch_sens/libesp_driver_touch_sens.a
+[197/217] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[198/217] Linking C static library esp-idf/esp_driver_tsens/libesp_driver_tsens.a
+[199/217] Linking C static library esp-idf/esp_driver_twai/libesp_driver_twai.a
+[200/217] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/device/esp_video_csi_device.c.obj
+[201/217] Linking C static library esp-idf/rt/librt.a
+[202/217] Linking C static library esp-idf/espressif__eppp_link/libespressif__eppp_link.a
+[203/217] Linking C static library esp-idf/esp_hid/libesp_hid.a
+[204/217] Linking C static library esp-idf/esp_local_ctrl/libesp_local_ctrl.a
+[205/217] Linking C static library esp-idf/bsp_extra/libbsp_extra.a
+[206/217] Linking C static library esp-idf/main/libmain.a
+[207/217] Performing build step for 'bootloader'
+[1/1] cd /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/bootloader && /Users/zhangwenyu/.espressif/python_env/idf6.0_py3.13_env/bin/python /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x2000 /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/bootloader/bootloader.bin
+Bootloader binary size 0x5370 bytes. 0xc90 bytes (13%) free.
+[208/217] No install step for 'bootloader'
+[209/217] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/esp_video.c.obj
+[210/217] Completed 'bootloader'
+[211/217] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/device/esp_video_isp_device.c.obj
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_video/src/device/esp_video_isp_device.c: In function 'isp_start_awb':
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_video/src/device/esp_video_isp_device.c:543:9: warning: 'ISP_AWB_SAMPLE_POINT_BEFORE_CCM' is deprecated: Use ISP_AWB_SAMPLE_POINT_0 instead [-Wdeprecated-declarations]
+  543 |         .sample_point = ISP_AWB_SAMPLE_POINT_BEFORE_CCM,
+      |         ^
+In file included from /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_cam/esp32p4/include/hal/isp_ll.h:16,
+                 from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_video/src/device/esp_video_isp_device.c:16:
+/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_cam/include/hal/isp_types.h:144:5: note: declared here
+  144 |     ISP_AWB_SAMPLE_POINT_BEFORE_CCM __attribute__((deprecated("Use ISP_AWB_SAMPLE_POINT_0 instead"))) = ISP_AWB_SAMPLE_POINT_0,    ///< Deprecated alias of `ISP_AWB_SAMPLE_POINT_0`
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_video/src/device/esp_video_isp_device.c: In function 'isp_start_ae':
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_video/src/device/esp_video_isp_device.c:716:9: warning: 'ISP_AE_SAMPLE_POINT_AFTER_GAMMA' is deprecated: Use ISP_AE_SAMPLE_POINT_1 instead [-Wdeprecated-declarations]
+  716 |         .sample_point = ISP_AE_SAMPLE_POINT_AFTER_GAMMA,
+      |         ^
+/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_cam/include/hal/isp_types.h:114:5: note: declared here
+  114 |     ISP_AE_SAMPLE_POINT_AFTER_GAMMA __attribute__((deprecated("Use ISP_AE_SAMPLE_POINT_1 instead"))) = ISP_AE_SAMPLE_POINT_1,       ///< Deprecated alias of `ISP_AE_SAMPLE_POINT_1`
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[212/217] Linking C static library esp-idf/esp_video/libesp_video.a
+[213/217] Generating esp-idf/esp_system/ld/sections.ld
+NOTE: 
+/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/bt/host/nimble/Kconfig.in
+:1421: BT_NIMBLE_MESH_PROVISIONER: 'default 0' is not a valid bool value (only 
+'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/fatfs/Kconfig:230: 
+FATFS_PRINT_LLI: 'default 0' is not a valid bool value (only 'y' and 'n' are 
+allowed). Value is treated as 'n'.
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/fatfs/Kconfig:235: 
+FATFS_PRINT_FLOAT: 'default 0' is not a valid bool value (only 'y' and 'n' are 
+allowed). Value is treated as 'n'.
+NOTE: 
+/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_system/Kconfig:126: 
+Trying to set symbol ESP_SYSTEM_NO_BACKTRACE to n, but it is currently selected 
+by choice ESP_BACKTRACING_METHOD. For setting it to n, set another choice symbol
+to y instead.
+Default value for ESP32P4_SELECTS_REV_LESS_V3 in sdkconfig is y but it is
+n according to Kconfig.
+Using default value from sdkconfig (y).
+Default value for MBEDTLS_HARDWARE_ECDSA_VERIFY in sdkconfig is n but it
+is y according to Kconfig.
+Using default value from sdkconfig (n).
+Default value for ESP_HOSTED_HOST_CP_RESET_SETTLE_MS in sdkconfig is 3000
+but it is 1500 according to Kconfig.
+Using default value from sdkconfig (3000).
+Default value for ESP_HOSTED_HOST_CP_BRINGUP_TIMEOUT_MS in sdkconfig is 
+10000 but it is 5000 according to Kconfig.
+Using default value from sdkconfig (10000).
+[214/217] Building C object CMakeFiles/esp_idf_project.elf.dir/project_elf_src_esp32p4.c.obj
+[215/217] Linking CXX executable esp_idf_project.elf
+[216/217] Generating binary image from built executable
+esptool v5.3.1
+Creating ESP32-P4 image...
+Merged 5 ELF sections.
+Successfully created ESP32-P4 image.
+Generated /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/esp_idf_project.bin
+[217/217] cd /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build && /Users/zhangwenyu/.espressif/python_env/idf6.0_py3.13_env/bin/python /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/partition_table/partition-table.bin /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/esp_idf_project.bin
+esp_idf_project.bin binary size 0x306fe0 bytes. Smallest app partition is 0x800000 bytes. 0x4f9020 bytes (62%) free.

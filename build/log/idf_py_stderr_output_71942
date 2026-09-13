@@ -1,0 +1,16 @@
+Command: ninja all
+CMake Error at /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/tools/cmake/build.cmake:697 (message):
+  ERROR: The "path" field in the manifest file
+  "/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/idf_component.yml"
+  does not point to a directory.  You can safely remove this field from the
+  manifest if this project is an example copied from a component repository.
+  The dependency will be downloaded from the ESP component registry.
+  Documentation:
+  https://docs.espressif.com/projects/idf-component-manager/en/latest/reference/manifest_file.html#override-path
+
+Call Stack (most recent call first):
+  /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/tools/cmake/project.cmake:773 (idf_build_process)
+  CMakeLists.txt:13 (project)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

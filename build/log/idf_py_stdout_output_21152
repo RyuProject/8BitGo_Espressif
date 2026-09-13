@@ -1,0 +1,124 @@
+Command: /Users/zhangwenyu/.espressif/python_env/idf6.0_py3.13_env/bin/python /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/tools/idf_monitor.py -p /dev/cu.usbserial-10 -b 115200 --toolchain-prefix riscv32-esp-elf- --target esp32p4 --revision 100 --decode-panic backtrace /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/esp_idf_project.elf /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/bootloader/bootloader.elf -m '/Users/zhangwenyu/.espressif/python_env/idf6.0_py3.13_env/bin/python' '/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/tools/idf.py'
+ESP-ROM:esp32p4-eco2-20240710
+Build:Jul 10 2024
+rst:0x1 (POWERON),boot:0x30f (SPI_FAST_FLASH_BOOT)
+SPI mode:DIO, clock div:1
+load:0x4ff33ce0,len:0x11ec
+load:0x4ff28ed0,len:0xce8
+load:0x4ff2bbd0,len:0x3440
+entry 0x4ff28ed0
+[0;32mI (396) hex_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (396) hex_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (396) hex_psram: DriveStr.    : 0x00 (25 Ohm)[0m
+[0;32mI (397) hex_psram: dev id       : 0x03 (generation 4)[0m
+[0;32mI (402) hex_psram: density      : 0x07 (256 Mbit)[0m
+[0;32mI (406) hex_psram: good-die     : 0x06 (Pass)[0m
+[0;32mI (410) hex_psram: SRF          : 0x02 (Slow Refresh)[0m
+[0;32mI (415) hex_psram: BurstType    : 0x00 ( Wrap)[0m
+[0;32mI (419) hex_psram: BurstLen     : 0x03 (2048 Byte)[0m
+[0;32mI (424) hex_psram: BitMode      : 0x01 (X16 Mode)[0m
+[0;32mI (428) hex_psram: Readlatency  : 0x04 (14 cycles@Fixed)[0m
+[0;32mI (433) hex_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (437) MSPI Timing: Enter psram timing tuning[0m
+I esp_psram: Found 32MB PSRAM device
+I esp_psram: Speed: 200MHz
+[0;32mI (672) mmu_psram: .rodata xip on psram[0m
+[0;32mI (725) mmu_psram: .text xip on psram[0m
+[0;32mI (726) hex_psram: psram CS IO is dedicated[0m
+[0;32mI (726) cpu_start: Multicore app[0m
+[0;32mI (1169) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (1178) cpu_start: GPIO 38 and 37 are used as console UART I/O pins[0m
+[0;32mI (1178) cpu_start: Pro cpu start user code[0m
+[0;32mI (1179) cpu_start: cpu freq: 360000000 Hz[0m
+[0;32mI (1181) app_init: Application information:[0m
+[0;32mI (1185) app_init: Project name:     esp_idf_project[0m
+[0;32mI (1189) app_init: App version:      e51e2f5-dirty[0m
+[0;32mI (1194) app_init: Compile time:     Sep 13 2026 10:08:04[0m
+[0;32mI (1199) app_init: ELF file SHA256:  f22dd68e7...[0m
+[0;32mI (1203) app_init: ESP-IDF:          v6.0.2-dirty[0m
+[0;32mI (1208) efuse_init: Min chip rev:     v1.0[0m
+[0;32mI (1212) efuse_init: Max chip rev:     v1.99 [0m
+[0;32mI (1216) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (1220) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1226) heap_init: At 4FF2A620 len 000109A0 (66 KiB): RETENT_RAM[0m
+[0;32mI (1232) heap_init: At 4FF3AFC0 len 00004BF0 (18 KiB): RAM[0m
+[0;32mI (1237) heap_init: At 4FF41CB0 len 0003E350 (248 KiB): RAM[0m
+[0;32mI (1242) heap_init: At 501080B0 len 00007F50 (31 KiB): RTCRAM[0m
+[0;32mI (1248) heap_init: At 30100088 len 00001F78 (7 KiB): SPM[0m
+[0;32mI (1253) esp_psram: Adding pool of 30400K of PSRAM memory to heap allocator[0m
+[0;32mI (1260) esp_psram: Adding pool of 39K of PSRAM memory gap generated due to end address alignment of irom to the heap allocator[0m
+[0;32mI (1271) esp_psram: Adding pool of 44K of PSRAM memory gap generated due to end address alignment of drom to the heap allocator[0m
+[0;33mW (1282) spi_flash: Detected boya flash chip but using generic driver. For optimal functionality, enable `SPI_FLASH_SUPPORT_BOYA_CHIP` in menuconfig[0m
+[0;32mI (1295) spi_flash: detected chip: generic[0m
+[0;32mI (1299) spi_flash: flash io: qio[0m
+[0;32mI (1303) eh_mcu_transport: transport_init: probing bus backend[0m
+[0;32mI (1308) eh_sdio: transport[host]: SDIO 4-bit 40000 kHz CLK=18 CMD=19 D0=14 D1=15 D2=16 D3=17 RESET=54[0m
+[0;32mI (1318) eh_sdio: sdio_data_to_rx_buf_task started[0m
+[0;32mI (1318) eh_mcu_transport: transport_init: bus backend up[0m
+[0;32mI (1318) main_task: Started on CPU0[0m
+[0;33mW (1327) eh_sdio: Reset co-processor using GPIO[54][0m
+[0;32mI (1335) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (1343) main_task: Calling app_main()[0m
+[0;32mI (1346) 8bitgo: 8BitGo client starting[0m
+[0;32mI (1350) ESP32_P4_EV: MIPI DSI PHY Powered on[0m
+[0;32mI (1355) ESP32_P4_EV: Install MIPI DSI LCD control panel[0m
+[0;32mI (1359) ESP32_P4_EV: Install ILI9881C LCD control panel[0m
+[0;32mI (1364) jd9365: version: 1.0.2[0m
+[0;32mI (1512) jd9365: LCD ID: 93 65 04[0m
+[0;32mI (1639) ESP32_P4_EV: Display initialized[0m
+[0;33mW (1639) gsl3680: Unable to initialize the I2C address[0m
+[0;32mI (1699) gsl3680: init gls3680[0m
+[0;32mI (1699) gsl3680: gsl3680 connect[0m
+[0;32mI (1699) gsl3680: gsl3680 read reg 0xf0 before is 0 0 0 0[0m
+[0;32mI (1719) gsl3680: gsl3680 writing 0xf0 0x12[0m
+[0;32mI (1739) gsl3680: gsl3680 read reg 0xf0 after is 12 34 56 0[0m
+[0;32mI (1739) gsl3680: start init[0m
+[0;32mI (1739) gsl3680: clear reg[0m
+[0;32mI (1869) gsl3680: start load fw[0m
+[0;32mI (2695) gsl3680: load fw success[0m
+[0;32mI (2695) gsl3680: enter[0m
+[0;32mI (2705) gsl_point_id: gsl_DataInit[0m
+[0;32mI (2765) gsl3680: enter[0m
+[0;32mI (2775) gsl_point_id: gsl_DataInit[0m
+[0;32mI (2775) gsl3680: enter read_ram_fw[0m
+[0;32mI (2805) gsl3680: gsl3680 startup_chip failed read 0xb0 = 5a,5a,5a,5a [0m
+[0;32mI (2805) ESP32_P4_EV: Setting LCD backlight: 100%[0m
+[0;32mI (2807) gc_ui: lvgl ready (800x1280)[0m
+[0;32mI (4390) eh_host_port_sdio: Function 0 Blocksize: 512[0m
+[0;32mI (4390) eh_host_port_sdio: Function 1 Blocksize: 512[0m
+[0;32mI (4490) eh_sdio: Card init success, TRANSPORT_RX_ACTIVE[0m
+[0;32mI (4518) eh_sdio: SDIO Host operating in STREAMING MODE[0m
+[0;32mI (4518) eh_sdio: Open data path at slave[0m
+[0;32mI (4518) eh_sdio: Starting SDIO process rx task[0m
+[0;32mI (4531) eh_init_evt: slave chip id: 0x0d (esp32c6)[0m
+[0;32mI (4531) eh_init_evt: capabilities: 0x01[0m
+[0;32mI (4531) eh_init_evt: Features supported are:[0m
+[0;32mI (4532) eh_init_evt: 	 * WLAN over SDIO[0m
+[0;32mI (4536) eh_init_evt: extended capabilities: 0x00000050[0m
+[0;32mI (4541) eh_init_evt: Extended Features supported:[0m
+[0;32mI (4545) eh_init_evt: 	 * WLAN[0m
+[0;32mI (4548) eh_init_evt: 	 * OpenThread[0m
+[0;32mI (4551) eh_init_evt: SDIO buf-config: e2h mode=0 bufsz=15872B, h2e mode=0 bufsz=15872B[0m
+[0;32mI (4559) eh_init_evt: RPC version negotiated: V2[0m
+[0;32mI (4563) eh_init_evt: esp-hosted fw versions: host=3.0.7 coprocessor=3.0.7 (match)[0m
+[0;32mI (4571) eh_init_evt: SDIO SW_AGGR negotiated (e2h=15872B h2e=15872B)[0m
+[0;32mI (4577) eh_init_evt: SDIO mode: slave=streaming host=streaming[0m
+[0;32mI (4582) eh_init_evt: chip=0x0d (esp32c6) fw=0x00030007 caps=0x01 ext=0x00000050[0m
+[0;32mI (4590) eh_auto_init: auto_init: found 1 descriptor(s)[0m
+[0;32mI (4593) gc_ui: touch: cnt=0 xy=(0,0) press_total=0 last=(0,0)[0m
+[0;32mI (4594) eh_auto_init: auto_init: initialising 'wifi' (priority 150)[0m
+[0;32mI (4606) eh_wifi_itwt: wifi iTWT ext init[0m
+[0;32mI (4894) gc_net: auto reconnect on[0m
+[0;32mI (4894) eh_wifi: rx RPC WifiEventNoArgs id=2[0m
+[0;32mI (4895) gc_net: auto connect to saved AP: liulaoxi[0m
+[0;32mI (4895) eh_wifi: set_config iface=STA ssid="liulaoxi" (8 bytes)[0m
+[0;32mI (4901) main_task: Returned from app_main()[0m
+[0;32mI (4909) gc_net: STA start[0m
+[0;32mI (4920) eh_wifi: rx RPC WifiEventNoArgs id=2[0m
+[0;32mI (6343) gc_ui: touch: cnt=0 xy=(0,0) press_total=0 last=(0,0)[0m
+[0;32mI (7573) esp_wifi_remote: esp_wifi_internal_reg_rxcb: sta: 0x4809965a[0m
+[0;32mI (8093) gc_ui: touch: cnt=0 xy=(0,0) press_total=0 last=(0,0)[0m
+[0;32mI (9112) esp_netif_handlers: sta ip: 192.168.10.17, mask: 255.255.255.0, gw: 192.168.10.1[0m
+[0;32mI (9112) gc_net: got ip: 192.168.10.17[0m
+[0;32mI (9112) 8bitgo: auto connected with saved credentials[0m
+[1;31mE (9517) SD_HOST: sd_host_create_sdmmc_controller(84): no available

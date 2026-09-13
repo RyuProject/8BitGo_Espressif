@@ -1,0 +1,28 @@
+Command: ninja all
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/bt/host/nimble/Kconfig.in:1421: BT_NIMBLE_MESH_PROVISIONER: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/fatfs/Kconfig:230: FATFS_PRINT_LLI: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/fatfs/Kconfig:235: FATFS_PRINT_FLOAT: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+Loading defaults file /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig.defaults...
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_system/Kconfig:126: Trying to set symbol ESP_SYSTEM_NO_BACKTRACE to n, but it is currently selected by choice ESP_BACKTRACING_METHOD. For setting it to n, set another choice symbol to y instead.
+Default value for ESP32P4_SELECTS_REV_LESS_V3 in sdkconfig is y but it is n according to Kconfig.
+Using default value from sdkconfig (y).
+Default value for MBEDTLS_HARDWARE_ECDSA_VERIFY in sdkconfig is n but it is y according to Kconfig.
+Using default value from sdkconfig (n).
+Default value for ESP_HOSTED_HOST_CP_RESET_SETTLE_MS in sdkconfig is 3000 but it is 1500 according to Kconfig.
+Using default value from sdkconfig (3000).
+Default value for ESP_HOSTED_HOST_CP_BRINGUP_TIMEOUT_MS in sdkconfig is 10000 but it is 5000 according to Kconfig.
+Using default value from sdkconfig (10000).
+NOTE: Kconfig parser version: 1
+NOTE: Kconfig defaults policy: use sdkconfig
+NOTE: Status: Finished with notifications
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/bsp_extra/Kconfig:2: BSP_I2S_NUM has multiple definitions (also at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp32_p4_function_ev_board/Kconfig:30)
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp32_p4_function_ev_board/Kconfig:30: BSP_I2S_NUM has multiple definitions (also at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/bsp_extra/Kconfig:2)
+HINT: Multiple definitions will have higher severity in the future. See https://docs.espressif.com/projects/esp-idf-kconfig/en/latest/kconfiglib/configuration-report.html#multiple-symbol-or-choice-definition
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/eh_host_core/Kconfig.cp_connection:27: ESP_HOSTED_HOST_CP_BRINGUP_TIMEOUT_MS: Kconfig default value: 5000, sdkconfig default value: 10000
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/eh_host_core/Kconfig.cp_connection:21: ESP_HOSTED_HOST_CP_RESET_SETTLE_MS: Kconfig default value: 1500, sdkconfig default value: 3000
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/mbedtls/Kconfig:1248: MBEDTLS_HARDWARE_ECDSA_VERIFY: Kconfig default value: y, sdkconfig default value: n
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/./port/esp32p4/Kconfig.hw_support:4: ESP32P4_SELECTS_REV_LESS_V3: Kconfig default value: n, sdkconfig default value: y
+HINT: This area reports issues with default values of the config options.
+For more information, please visit https://docs.espressif.com/projects/esp-idf-kconfig/en/latest/kconfiglib/configuration-report.html#default-value-mismatch
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_stdio/Kconfig:150: ESP_CONSOLE_UART_BAUDRATE has user-set value 115200 from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig but is not visible (disabled dependency)
+HINT: Disabled symbols/choices are not written into sdkconfig file. Setting their user value has no effect.

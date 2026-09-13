@@ -1,0 +1,3 @@
+dependencies:
+  idf: ">=5.3"
+description: 8BitGo client - chip capability probe & performance tuning

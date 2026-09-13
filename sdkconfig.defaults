@@ -1,0 +1,62 @@
+# This file was generated using idf.py save-defconfig. It can be edited manually.
+# Espressif IoT Development Framework (ESP-IDF) 5.4.0 Project Minimal Configuration
+#
+CONFIG_IDF_TARGET="esp32p4"
+CONFIG_ESPTOOLPY_FLASHMODE_QIO=y
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_COMPILER_OPTIMIZATION_PERF=y
+CONFIG_SPIRAM=y
+CONFIG_SPIRAM_SPEED_200M=y
+CONFIG_SPIRAM_XIP_FROM_PSRAM=y
+CONFIG_CACHE_L2_CACHE_256KB=y
+CONFIG_CACHE_L2_CACHE_LINE_128B=y
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=10240
+CONFIG_FREERTOS_HZ=1000
+CONFIG_FREERTOS_VTASKLIST_INCLUDE_COREID=y
+CONFIG_FREERTOS_GENERATE_RUN_TIME_STATS=y
+
+CONFIG_IDF_EXPERIMENTAL_FEATURES=y
+CONFIG_CODEC_I2C_BACKWARD_COMPATIBLE=n
+
+# ---- LVGL：OS 风格界面 + 封面（PNG/JPEG）按需解码 ----
+# 用 libc 的 malloc：解码缓冲会自动落到 PSRAM（>16KB），避免 LVGL 内部内存池过小
+CONFIG_LV_USE_BUILTIN_MALLOC=n
+CONFIG_LV_USE_CLIB_MALLOC=y
+# 更大的字号用于标题 / LOGO（ASCII），正文仍用自带 PuHui 16（含中日韩）
+CONFIG_LV_FONT_MONTSERRAT_20=y
+CONFIG_LV_FONT_MONTSERRAT_30=y
+CONFIG_LV_FONT_MONTSERRAT_48=y
+# 封面以文件方式交给 LVGL，滚动到可见时才解码（懒加载）
+CONFIG_LV_USE_FS_STDIO=y
+CONFIG_LV_FS_STDIO_LETTER=83
+CONFIG_LV_FS_STDIO_PATH=""
+CONFIG_LV_FS_STDIO_CACHE_SIZE=0
+CONFIG_LV_USE_FS_MEMFS=y
+CONFIG_LV_FS_MEMFS_LETTER=77
+CONFIG_LV_USE_LODEPNG=y
+CONFIG_LV_USE_TJPGD=y
+CONFIG_LV_USE_BMP=y
+# 已解码封面缓存（PSRAM，按需分配），滚动时不必反复解码
+CONFIG_LV_CACHE_DEF_SIZE=6291456
+CONFIG_LV_IMAGE_HEADER_CACHE_DEF_CNT=64
+
+# ---- 蓝牙：经板载 ESP32-C6（NumBLE / esp-hosted）----
+# 让 P4 这侧运行 NimBLE 主机协议栈，把本机暴露为 BLE 设备。
+# 注意：这些选项需要与 C6 固件（已开启 NumBLE）匹配；若 menuconfig 中
+# 仍有冲突，请运行 `idf.py menuconfig` 在 Component config -> ESP-Hosted
+# -> Features 中确认 BT over NimBLE 已开启，再 `idf.py reconfigure`。
+CONFIG_BT_ENABLED=y
+CONFIG_BT_NIMBLE_ENABLED=y
+CONFIG_ESP_HOSTED_HOST_FEAT_BT=y
+# esp-hosted 3.0 已移除 CONFIG_ESP_HOSTED_ENABLE_BT_NIMBLE（旧的 hosted-BT 开关），
+# 保留会让 host/CMakeLists.txt 直接 FATAL_ERROR。BT over NimBLE 现由
+# CONFIG_BT_ENABLED + CONFIG_ESP_HOSTED_HOST_FEAT_BT 启用，这里不再设置。
+
+# ---- 电源管理 ----
+# 不要开启 CONFIG_PM_ENABLE：实测 PM 接管时钟后（无论是否 DFS），esp-hosted 的
+# SDIO(Wi-Fi) 链路会在连接时触发 Core1 Load access fault panic。CPU 主频由
+# CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ 固定（默认 360MHz），本就无降频。
+
+# ---- FatFs：开启长文件名（封面缓存 / ROM 长文件名需要；默认就是 LFN_HEAP）----
+CONFIG_FATFS_LFN_HEAP=y

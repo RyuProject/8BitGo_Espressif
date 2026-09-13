@@ -1,0 +1,39 @@
+Command: ninja all
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/bt/host/nimble/Kconfig.in:1421: BT_NIMBLE_MESH_PROVISIONER: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/fatfs/Kconfig:230: FATFS_PRINT_LLI: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/fatfs/Kconfig:235: FATFS_PRINT_FLOAT: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+Loading defaults file /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig.defaults...
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_system/Kconfig:126: Trying to set symbol ESP_SYSTEM_NO_BACKTRACE to n, but it is currently selected by choice ESP_BACKTRACING_METHOD. For setting it to n, set another choice symbol to y instead.
+Default value for ESP32P4_SELECTS_REV_LESS_V3 in sdkconfig is y but it is n according to Kconfig.
+Using default value from sdkconfig (y).
+Default value for PM_SLEEP_FUNC_IN_IRAM in sdkconfig is y but it is n according to Kconfig.
+Using default value from sdkconfig (y).
+Default value for ESP_WIFI_REMOTE_ENABLED in sdkconfig is y but it is n according to Kconfig.
+Using default value from sdkconfig (y).
+Default value for ESP_WIFI_EXTRA_IRAM_OPT in sdkconfig is y but it is n according to Kconfig.
+Using default value from sdkconfig (y).
+Default value for ESP_HOSTED in sdkconfig is y but it is n according to Kconfig.
+Using default value from sdkconfig (y).
+NOTE: Kconfig parser version: 1
+NOTE: Kconfig defaults policy: use sdkconfig
+NOTE: Status: Finished with notifications
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/bsp_extra/Kconfig:2: BSP_I2S_NUM has multiple definitions (also at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp32_p4_function_ev_board/Kconfig:30)
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp32_p4_function_ev_board/Kconfig:30: BSP_I2S_NUM has multiple definitions (also at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/bsp_extra/Kconfig:2)
+HINT: Multiple definitions will have higher severity in the future. See https://docs.espressif.com/projects/esp-idf-kconfig/en/latest/kconfiglib/configuration-report.html#multiple-symbol-or-choice-definition
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_wifi_remote/Kconfig:4: ESP_WIFI_REMOTE_ENABLED: Kconfig default value: n, sdkconfig default value: y
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/Kconfig:1: ESP_HOSTED: Kconfig default value: n, sdkconfig default value: y
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_wifi/Kconfig:282: ESP_WIFI_EXTRA_IRAM_OPT: Kconfig default value: n, sdkconfig default value: y
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/./port/esp32p4/Kconfig.hw_support:4: ESP32P4_SELECTS_REV_LESS_V3: Kconfig default value: n, sdkconfig default value: y
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_pm/Kconfig:3: PM_SLEEP_FUNC_IN_IRAM: Kconfig default value: n, sdkconfig default value: y
+HINT: This area reports issues with default values of the config options.
+For more information, please visit https://docs.espressif.com/projects/esp-idf-kconfig/en/latest/kconfiglib/configuration-report.html#default-value-mismatch
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_stdio/Kconfig:150: ESP_CONSOLE_UART_BAUDRATE has user-set value 115200 from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig but is not visible (disabled dependency)
+HINT: Disabled symbols/choices are not written into sdkconfig file. Setting their user value has no effect.
+WARNING: ESP_PHY_IRAM_OPT (defined at /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_phy/Kconfig:199) has direct dependencies ESP_PHY_ENABLED with value n, but is currently being y-selected by the following symbols:
+ - ESP_WIFI_SLP_IRAM_OPT (defined at /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_wifi/Kconfig:349, /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_wifi_remote/././idf_v6.0/Kconfig.wifi.in:1016), with value y, direct dependencies ESP_WIFI_ENABLED || ESP_HOST_WIFI_ENABLED || (WIFI_RMT_SLP_IRAM_OPT && !ESP_WIFI_ENABLED && ESP_WIFI_REMOTE_ENABLED) (value: y), and select condition ESP_WIFI_ENABLED || ESP_HOST_WIFI_ENABLED (value: y)
+CMake Error at managed_components/espressif__esp_hosted/host/CMakeLists.txt:6 (message):
+  esp_hosted and CONFIG_ESP_HOST_WIFI_ENABLED (native host Wi-Fi) cannot both
+  be enabled; both use the host SDIO bus.  Disable one.
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

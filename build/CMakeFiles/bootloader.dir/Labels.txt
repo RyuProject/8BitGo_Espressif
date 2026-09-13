@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/CMakeFiles/bootloader
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/CMakeFiles/bootloader.rule
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/CMakeFiles/bootloader-complete.rule
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

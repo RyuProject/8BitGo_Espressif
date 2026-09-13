@@ -1,0 +1,3 @@
+dependencies:
+  idf: ">=5.3"
+description: 8BitGo client - 轻量 NVS 配置持久化

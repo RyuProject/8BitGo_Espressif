@@ -1,0 +1,47 @@
+Command: cmake -G Ninja -B /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/Users/zhangwenyu/.espressif/python_env/idf6.0_py3.13_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4
+CMake Deprecation Warning at CMakeLists.txt:3 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/bt/host/nimble/Kconfig.in:1421: BT_NIMBLE_MESH_PROVISIONER: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/fatfs/Kconfig:230: FATFS_PRINT_LLI: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/fatfs/Kconfig:235: FATFS_PRINT_FLOAT: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+Loading defaults file /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig.defaults...
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:896: CONFIG_ANA_CMPR_ISR_IRAM_SAFE was replaced with CONFIG_ANA_CMPR_ISR_CACHE_SAFE
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:920: CONFIG_GPTIMER_ISR_IRAM_SAFE was replaced with CONFIG_GPTIMER_ISR_CACHE_SAFE
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:962: CONFIG_MCPWM_ISR_IRAM_SAFE was replaced with CONFIG_MCPWM_ISR_CACHE_SAFE
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:1177: CONFIG_PERIPH_CTRL_FUNC_IN_IRAM was replaced with CONFIG_ESP_PERIPH_CTRL_FUNC_IN_IRAM
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:1245: CONFIG_LCD_DSI_ISR_IRAM_SAFE was replaced with CONFIG_LCD_DSI_ISR_CACHE_SAFE
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:1361: CONFIG_ESP_SYSTEM_PMP_IDRAM_SPLIT was replaced with CONFIG_ESP_SYSTEM_MEMPROT
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:1362: CONFIG_ESP_SYSTEM_PMP_LP_CORE_RESERVE_MEM_EXECUTABLE was replaced with CONFIG_ESP_SYSTEM_MEMPROT_PMP_LP_CORE_RESERVE_MEM_EXEC
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:1408: CONFIG_ESP_SYSTEM_BROWNOUT_INTR was replaced with CONFIG_ESP_BROWNOUT_USE_INTR
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:1994: CONFIG_NEWLIB_STDOUT_LINE_ENDING_CRLF was replaced with CONFIG_LIBC_STDOUT_LINE_ENDING_CRLF
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:1995: CONFIG_NEWLIB_STDOUT_LINE_ENDING_LF was replaced with CONFIG_LIBC_STDOUT_LINE_ENDING_LF
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:1996: CONFIG_NEWLIB_STDOUT_LINE_ENDING_CR was replaced with CONFIG_LIBC_STDOUT_LINE_ENDING_CR
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:1997: CONFIG_NEWLIB_STDIN_LINE_ENDING_CRLF was replaced with CONFIG_LIBC_STDIN_LINE_ENDING_CRLF
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:1998: CONFIG_NEWLIB_STDIN_LINE_ENDING_LF was replaced with CONFIG_LIBC_STDIN_LINE_ENDING_LF
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:1999: CONFIG_NEWLIB_STDIN_LINE_ENDING_CR was replaced with CONFIG_LIBC_STDIN_LINE_ENDING_CR
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:2000: CONFIG_NEWLIB_NANO_FORMAT was replaced with CONFIG_LIBC_NEWLIB_NANO_FORMAT
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:2001: CONFIG_NEWLIB_TIME_SYSCALL_USE_RTC_HRT was replaced with CONFIG_LIBC_TIME_SYSCALL_USE_RTC_HRT
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:2002: CONFIG_NEWLIB_TIME_SYSCALL_USE_RTC was replaced with CONFIG_LIBC_TIME_SYSCALL_USE_RTC
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:2003: CONFIG_NEWLIB_TIME_SYSCALL_USE_HRT was replaced with CONFIG_LIBC_TIME_SYSCALL_USE_HRT
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig:2004: CONFIG_NEWLIB_TIME_SYSCALL_USE_NONE was replaced with CONFIG_LIBC_TIME_SYSCALL_USE_NONE
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_system/Kconfig:126: Trying to set symbol ESP_SYSTEM_NO_BACKTRACE to n, but it is currently selected by choice ESP_BACKTRACING_METHOD. For setting it to n, set another choice symbol to y instead.
+NOTE: Kconfig parser version: 1
+NOTE: Kconfig defaults policy: use sdkconfig
+NOTE: Status: Finished with notifications
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/bsp_extra/Kconfig:2: BSP_I2S_NUM has multiple definitions (also at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp32_p4_function_ev_board/Kconfig:30)
+NOTE: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp32_p4_function_ev_board/Kconfig:30: BSP_I2S_NUM has multiple definitions (also at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/bsp_extra/Kconfig:2)
+HINT: Multiple definitions will have higher severity in the future. See https://docs.espressif.com/projects/esp-idf-kconfig/en/latest/kconfiglib/configuration-report.html#multiple-symbol-or-choice-definition
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_driver_spi/Kconfig:3: SPI_MASTER_IN_IRAM has user-set value n from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig but is not visible (disabled dependency)
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_libc/Kconfig:106: LIBC_NEWLIB_NANO_FORMAT has user-set value n from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig but is not visible (disabled dependency)
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_stdio/Kconfig:150: ESP_CONSOLE_UART_BAUDRATE has user-set value 115200 from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig but is not visible (disabled dependency)
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/app_trace/Kconfig.apptrace:111: APPTRACE_LOCK_ENABLE has user-set value y from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig but is not visible (disabled dependency)
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/app_trace/Kconfig.apptrace:3: APPTRACE_DESTINATION has all choice symbols disabled in sdkconfig; the choice is not visible. Source: (unknown)
+HINT: Disabled symbols/choices are not written into sdkconfig file. Setting their user value has no effect.
+NOTE: user value 68 on the int symbol LWIP_DHCP_OPTIONS_LEN (defined at /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/lwip/Kconfig:372) ignored due to being outside the active range ([69, 255]) -- falling back on defaults

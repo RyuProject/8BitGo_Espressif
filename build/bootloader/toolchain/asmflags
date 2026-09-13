@@ -1,0 +1,4 @@
+"-specs=/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/bootloader/specs/picolibc.specs"
+-mabi=ilp32f
+-march=rv32imafc_zicsr_zifencei_zaamo_zalrsc_xesploop_xespv2p1
+-mtune=esp-base

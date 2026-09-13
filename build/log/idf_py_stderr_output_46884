@@ -1,0 +1,12 @@
+Command: cmake -G Ninja -B /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/Users/zhangwenyu/.espressif/python_env/idf6.0_py3.13_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4
+CMake Error at /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/tools/cmake/build.cmake:380 (message):
+  Failed to resolve component 'esp_spiffs' required by component 'gc_store':
+  unknown name.
+Call Stack (most recent call first):
+  /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/tools/cmake/build.cmake:429 (__build_resolve_and_add_req)
+  /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/tools/cmake/build.cmake:424 (__build_expand_requirements)
+  /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/tools/cmake/build.cmake:753 (__build_expand_requirements)
+  /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/tools/cmake/project.cmake:773 (idf_build_process)
+  CMakeLists.txt:13 (project)
+
+

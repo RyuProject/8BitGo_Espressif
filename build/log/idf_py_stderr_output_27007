@@ -1,0 +1,9 @@
+Command: /Users/zhangwenyu/.espressif/python_env/idf6.0_py3.13_env/bin/python /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/tools/idf_monitor.py -p /dev/cu.usbserial-10 -b 115200 --toolchain-prefix riscv32-esp-elf- --target esp32p4 --revision 100 --decode-panic backtrace /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/esp_idf_project.elf /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/bootloader/bootloader.elf -m '/Users/zhangwenyu/.espressif/python_env/idf6.0_py3.13_env/bin/python' '/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/tools/idf.py'
+[0;33m--- esp-idf-monitor 1.9.0 on /dev/cu.usbserial-10 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x4ff28ed0: [0;33mcall_start_cpu0[0m[0m at [0;32m/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m27[0m
+[0m--- 0x4ff2bbd0: [0;33mis_xmc_chip_strict[0m[0m at [0;32m/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c[0m[0m:[1;31m925[0m
+[0m--- 0x4ff28ed0: [0;33mcall_start_cpu0[0m[0m at [0;32m/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m27[0m
+[0m--- 0x480f36a2: [0;33mwifi_sta_receive[0m[0m at [0;32m/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_wifi/src/wifi_netif.c[0m[0m:[1;31m39[0m
+[0m--- 0x480f36a2: [0;33mwifi_sta_receive[0m[0m at [0;32m/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_wifi/src/wifi_netif.c[0m[0m:[1;31m39[0m
+[0m

@@ -1,0 +1,119 @@
+Command: ninja all
+[1/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/stdlib/SDL_memset.c.obj
+[2/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/stdlib/SDL_murmur3.c.obj
+[3/83] Building C object esp-idf/gc_sdl_bsp/CMakeFiles/__idf_gc_sdl_bsp.dir/gc_sdl_bsp.c.obj
+[4/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/src/stdlib/SDL_malloc.c.obj
+[5/83] Linking C static library esp-idf/gc_sdl_bsp/libgc_sdl_bsp.a
+[6/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/io/SDL_asyncio.c.obj
+[7/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/timer/SDL_timer.c.obj
+[8/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/io/generic/SDL_asyncio_generic.c.obj
+[9/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/stdlib/SDL_getenv.c.obj
+[10/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/src/stdlib/SDL_stdlib.c.obj
+[11/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/thread/pthread/SDL_sysmutex.c.obj
+[12/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/filesystem/SDL_filesystem.c.obj
+[13/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/thread/SDL_thread.c.obj
+[14/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/thread/pthread/SDL_sysrwlock.c.obj
+[15/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/thread/pthread/SDL_syscond.c.obj
+[16/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/src/thread/pthread/pthread_espidf.c.obj
+[17/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/SDL_error.c.obj
+[18/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/thread/pthread/SDL_systls.c.obj
+[19/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/thread/pthread/SDL_syssem.c.obj
+[20/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/cpuinfo/SDL_cpuinfo.c.obj
+[21/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/src/SDL_assert.c.obj
+[22/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/src/thread/pthread/SDL_systhread.c.obj
+[23/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/SDL_hints.c.obj
+[24/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/render/software/SDL_drawpoint.c.obj
+[25/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/stdlib/SDL_iconv.c.obj
+[26/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/SDL_hashtable.c.obj
+[27/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/SDL_log.c.obj
+[28/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_blit.c.obj
+[29/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/render/SDL_yuv_sw.c.obj
+[30/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/render/software/SDL_drawline.c.obj
+[31/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/io/SDL_iostream.c.obj
+[32/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_blit_copy.c.obj
+[33/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/render/software/SDL_blendpoint.c.obj
+[34/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/render/software/SDL_render_sw.c.obj
+[35/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_bmp.c.obj
+[36/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_fillrect.c.obj
+[37/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/stdlib/SDL_string.c.obj
+[38/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_blit_slow.c.obj
+[39/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_blit_1.c.obj
+[40/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_rect.c.obj
+[41/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_RLEaccel.c.obj
+[42/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_pixels.c.obj
+[43/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_rotate.c.obj
+[44/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_stretch.c.obj
+[45/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/src/timer/esp-idf/SDL_systimer.c.obj
+[46/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/src/video/esp-idf/SDL_espidfevents.c.obj
+[47/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/render/software/SDL_triangle.c.obj
+[48/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/src/video/esp-idf/SDL_espidfvideo.c.obj
+[49/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/src/video/esp-idf/SDL_espidfframebuffer.c.obj
+[50/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_blit_0.c.obj
+[51/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/src/video/esp-idf/SDL_espidftouch.c.obj
+[52/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_blit_N.c.obj
+[53/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/render/software/SDL_blendfillrect.c.obj
+[54/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/SDL_properties.c.obj
+[55/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/SDL_utils.c.obj
+[56/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/SDL_guid.c.obj
+[57/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/sensor/dummy/SDL_dummysensor.c.obj
+[58/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/joystick/controller_type.c.obj
+[59/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/tray/dummy/SDL_tray.c.obj
+[60/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/joystick/SDL_steam_virtual_gamepad.c.obj
+[61/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/tray/SDL_tray_utils.c.obj
+[62/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/sensor/SDL_sensor.c.obj
+[63/83] Performing build step for 'bootloader'
+[1/1] cd /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/bootloader && /Users/zhangwenyu/.espressif/python_env/idf6.0_py3.13_env/bin/python /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x2000 /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/bootloader/bootloader.bin
+Bootloader binary size 0x5370 bytes. 0xc90 bytes (13%) free.
+[64/83] No install step for 'bootloader'
+[65/83] Completed 'bootloader'
+[66/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_clipboard.c.obj
+[67/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_yuv.c.obj
+[68/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_blit_A.c.obj
+[69/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_surface.c.obj
+[70/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/render/SDL_render.c.obj
+[71/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/yuv2rgb/yuv_rgb_std.c.obj
+[72/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/joystick/SDL_gamepad.c.obj
+[73/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/joystick/SDL_joystick.c.obj
+[74/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/render/software/SDL_blendline.c.obj
+[75/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_video.c.obj
+[76/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_stb.c.obj
+[77/83] Building C object esp-idf/sdl3/CMakeFiles/__idf_sdl3.dir/SDL/src/video/SDL_blit_auto.c.obj
+[78/83] Linking C static library esp-idf/sdl3/libsdl3.a
+[79/83] Generating esp-idf/esp_system/ld/sections.ld
+NOTE: 
+/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/bt/host/nimble/Kconfig.in
+:1421: BT_NIMBLE_MESH_PROVISIONER: 'default 0' is not a valid bool value (only 
+'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/fatfs/Kconfig:230: 
+FATFS_PRINT_LLI: 'default 0' is not a valid bool value (only 'y' and 'n' are 
+allowed). Value is treated as 'n'.
+NOTE: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/fatfs/Kconfig:235: 
+FATFS_PRINT_FLOAT: 'default 0' is not a valid bool value (only 'y' and 'n' are 
+allowed). Value is treated as 'n'.
+NOTE: 
+/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_system/Kconfig:126: 
+Trying to set symbol ESP_SYSTEM_NO_BACKTRACE to n, but it is currently selected 
+by choice ESP_BACKTRACING_METHOD. For setting it to n, set another choice symbol
+to y instead.
+Default value for ESP32P4_SELECTS_REV_LESS_V3 in sdkconfig is y but it is
+n according to Kconfig.
+Using default value from sdkconfig (y).
+Default value for MBEDTLS_HARDWARE_ECDSA_VERIFY in sdkconfig is n but it
+is y according to Kconfig.
+Using default value from sdkconfig (n).
+Default value for ESP_HOSTED_HOST_CP_RESET_SETTLE_MS in sdkconfig is 3000
+but it is 1500 according to Kconfig.
+Using default value from sdkconfig (3000).
+Default value for ESP_HOSTED_HOST_CP_BRINGUP_TIMEOUT_MS in sdkconfig is 
+10000 but it is 5000 according to Kconfig.
+Using default value from sdkconfig (10000).
+[80/83] Building C object CMakeFiles/esp_idf_project.elf.dir/project_elf_src_esp32p4.c.obj
+[81/83] Linking CXX executable esp_idf_project.elf
+[82/83] Generating binary image from built executable
+esptool v5.3.1
+Creating ESP32-P4 image...
+Merged 5 ELF sections.
+Successfully created ESP32-P4 image.
+Generated /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/esp_idf_project.bin
+[83/83] cd /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build && /Users/zhangwenyu/.espressif/python_env/idf6.0_py3.13_env/bin/python /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/partition_table/partition-table.bin /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/esp_idf_project.bin
+esp_idf_project.bin binary size 0x309b90 bytes. Smallest app partition is 0x800000 bytes. 0x4f6470 bytes (62%) free.

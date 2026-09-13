@@ -1,0 +1,201 @@
+Command: /Users/zhangwenyu/.espressif/python_env/idf6.0_py3.13_env/bin/python /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/tools/idf_monitor.py -p /dev/cu.usbserial-10 -b 115200 --toolchain-prefix riscv32-esp-elf- --target esp32p4 --revision 100 --decode-panic backtrace /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/esp_idf_project.elf /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/bootloader/bootloader.elf -m '/Users/zhangwenyu/.espressif/python_env/idf6.0_py3.13_env/bin/python' '/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/tools/idf.py'
+ESP-ROM:esp32p4-eco2-20240710
+Build:Jul 10 2024
+rst:0x1 (POWERON),boot:0x30f (SPI_FAST_FLASH_BOOT)
+SPI mode:DIO, clock div:1
+load:0x4ff33ce0,len:0x11ec
+load:0x4ff28ed0,len:0xce8
+load:0x4ff2bbd0,len:0x3440
+entry 0x4ff28ed0
+[0;32mI (505) hex_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (505) hex_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (506) hex_psram: DriveStr.    : 0x00 (25 Ohm)[0m
+[0;32mI (506) hex_psram: dev id       : 0x03 (generation 4)[0m
+[0;32mI (511) hex_psram: density      : 0x07 (256 Mbit)[0m
+[0;32mI (515) hex_psram: good-die     : 0x06 (Pass)[0m
+[0;32mI (519) hex_psram: SRF          : 0x02 (Slow Refresh)[0m
+[0;32mI (524) hex_psram: BurstType    : 0x00 ( Wrap)[0m
+[0;32mI (528) hex_psram: BurstLen     : 0x03 (2048 Byte)[0m
+[0;32mI (533) hex_psram: BitMode      : 0x01 (X16 Mode)[0m
+[0;32mI (537) hex_psram: Readlatency  : 0x04 (14 cycles@Fixed)[0m
+[0;32mI (542) hex_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (546) MSPI Timing: Enter psram timing tuning[0m
+I esp_psram: Found 32MB PSRAM device
+I esp_psram: Speed: 200MHz
+[0;32mI (797) mmu_psram: .rodata xip on psram[0m
+[0;32mI (868) mmu_psram: .text xip on psram[0m
+[0;32mI (869) hex_psram: psram CS IO is dedicated[0m
+[0;32mI (870) cpu_start: Multicore app[0m
+[0;32mI (1289) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (1298) cpu_start: GPIO 38 and 37 are used as console UART I/O pins[0m
+[0;32mI (1298) cpu_start: Pro cpu start user code[0m
+[0;32mI (1299) cpu_start: cpu freq: 360000000 Hz[0m
+[0;32mI (1301) app_init: Application information:[0m
+[0;32mI (1305) app_init: Project name:     esp_idf_project[0m
+[0;32mI (1309) app_init: App version:      e51e2f5-dirty[0m
+[0;32mI (1314) app_init: Compile time:     Sep 13 2026 13:56:27[0m
+[0;32mI (1319) app_init: ELF file SHA256:  dc116d1fe...[0m
+[0;32mI (1323) app_init: ESP-IDF:          v6.0.2-dirty[0m
+[0;32mI (1328) efuse_init: Min chip rev:     v1.0[0m
+[0;32mI (1332) efuse_init: Max chip rev:     v1.99 [0m
+[0;32mI (1336) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (1340) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1346) heap_init: At 4FF29C90 len 00011330 (68 KiB): RETENT_RAM[0m
+[0;32mI (1352) heap_init: At 4FF3AFC0 len 00004BF0 (18 KiB): RAM[0m
+[0;32mI (1357) heap_init: At 4FF40000 len 00040000 (256 KiB): RAM[0m
+[0;32mI (1362) heap_init: At 501080B0 len 00007F50 (31 KiB): RTCRAM[0m
+[0;32mI (1368) heap_init: At 30100088 len 00001F78 (7 KiB): SPM[0m
+[0;32mI (1373) esp_psram: Adding pool of 29696K of PSRAM memory to heap allocator[0m
+[0;32mI (1380) esp_psram: Adding pool of 47K of PSRAM memory gap generated due to end address alignment of irom to the heap allocator[0m
+[0;32mI (1391) esp_psram: Adding pool of 29K of PSRAM memory gap generated due to end address alignment of drom to the heap allocator[0m
+[0;33mW (1402) spi_flash: Detected boya flash chip but using generic driver. For optimal functionality, enable `SPI_FLASH_SUPPORT_BOYA_CHIP` in menuconfig[0m
+[0;32mI (1415) spi_flash: detected chip: generic[0m
+[0;32mI (1419) spi_flash: flash io: qio[0m
+[0;32mI (1423) eh_mcu_transport: transport_init: probing bus backend[0m
+[0;32mI (1428) eh_sdio: transport[host]: SDIO 4-bit 40000 kHz CLK=18 CMD=19 D0=14 D1=15 D2=16 D3=17 RESET=54[0m
+[0;32mI (1437) eh_sdio: sdio_data_to_rx_buf_task started[0m
+[0;32mI (1437) eh_mcu_transport: transport_init: bus backend up[0m
+[0;32mI (1438) main_task: Started on CPU0[0m
+[0;33mW (1447) eh_sdio: Reset co-processor using GPIO[54][0m
+[0;32mI (1455) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (1462) main_task: Calling app_main()[0m
+[0;32mI (1466) 8bitgo: 8BitGo client starting[0m
+[0;32mI (1469) ESP32_P4_EV: MIPI DSI PHY Powered on[0m
+[0;32mI (1475) ESP32_P4_EV: Install MIPI DSI LCD control panel[0m
+[0;32mI (1479) ESP32_P4_EV: Install ILI9881C LCD control panel[0m
+[0;32mI (1484) jd9365: version: 1.0.2[0m
+[0;32mI (1632) jd9365: LCD ID: 93 65 04[0m
+[0;32mI (1759) ESP32_P4_EV: Display initialized[0m
+[0;32mI (1759) gsl3680: skip I2C addr-select (no int/rst pins), do soft reset[0m
+[0;32mI (1819) gsl3680: init gls3680[0m
+[0;32mI (1819) gsl3680: gsl3680 connect[0m
+[0;32mI (1819) gsl3680: gsl3680 read reg 0xf0 before is 0 0 0 0[0m
+[0;32mI (1839) gsl3680: gsl3680 writing 0xf0 0x12[0m
+[0;32mI (1859) gsl3680: gsl3680 read reg 0xf0 after is 12 34 56 0[0m
+[0;32mI (1859) gsl3680: start init[0m
+[0;32mI (1859) gsl3680: clear reg[0m
+[0;32mI (1989) gsl3680: start load fw[0m
+[0;32mI (2810) gsl3680: load fw success[0m
+[0;32mI (2810) gsl3680: enter[0m
+[0;32mI (2820) gsl_point_id: gsl_DataInit[0m
+[0;32mI (2880) gsl3680: enter[0m
+[0;32mI (2890) gsl_point_id: gsl_DataInit[0m
+[0;32mI (2890) gsl3680: enter read_ram_fw[0m
+[0;32mI (2920) gsl3680: ram fw check ok (0xb0 = 5a5a5a5a)[0m
+[0;32mI (2920) ESP32_P4_EV: Setting LCD backlight: 100%[0m
+[0;32mI (2920) gc_disp: display 800x1280 (short 800) -> scale 1.000, logical 800x1280 rot=0[0m
+[0;32mI (2925) gc_ui_theme: theme ready 800x1280 (phys 800x1280, scale 1.00)[0m
+[0;32mI (2937) gc_ui: LCD rotation = 90 (0/90/180/270)[0m
+[0;32mI (2942) gc_ui: lvgl ready (800x1280)[0m
+[0;33mW (2953) gc_ui: rot buffer too small (1280x180)[0m
+[0;33mW (2967) gc_ui: rot buffer too small (1280x180)[0m
+[0;33mW (2980) gc_ui: rot buffer too small (1280x180)[0m
+[0;33mW (2992) gc_ui: rot buffer too small (1280x180)[0m
+[0;32mI (4508) eh_host_port_sdio: Function 0 Blocksize: 512[0m
+[0;32mI (4509) eh_host_port_sdio: Function 1 Blocksize: 512[0m
+[0;32mI (4609) eh_sdio: Card init success, TRANSPORT_RX_ACTIVE[0m
+[0;32mI (4637) eh_sdio: SDIO Host operating in STREAMING MODE[0m
+[0;32mI (4637) eh_sdio: Open data path at slave[0m
+[0;32mI (4637) eh_sdio: Starting SDIO process rx task[0m
+[0;32mI (4650) eh_init_evt: slave chip id: 0x0d (esp32c6)[0m
+[0;32mI (4650) eh_init_evt: capabilities: 0x01[0m
+[0;32mI (4650) eh_init_evt: Features supported are:[0m
+[0;32mI (4651) eh_init_evt: 	 * WLAN over SDIO[0m
+[0;32mI (4655) eh_init_evt: extended capabilities: 0x00000050[0m
+[0;32mI (4660) eh_init_evt: Extended Features supported:[0m
+[0;32mI (4664) eh_init_evt: 	 * WLAN[0m
+[0;32mI (4667) eh_init_evt: 	 * OpenThread[0m
+[0;32mI (4670) eh_init_evt: SDIO buf-config: e2h mode=0 bufsz=15872B, h2e mode=0 bufsz=15872B[0m
+[0;32mI (4678) eh_init_evt: RPC version negotiated: V2[0m
+[0;32mI (4682) eh_init_evt: esp-hosted fw versions: host=3.0.7 coprocessor=3.0.7 (match)[0m
+[0;32mI (4690) eh_init_evt: SDIO SW_AGGR negotiated (e2h=15872B h2e=15872B)[0m
+[0;32mI (4696) eh_init_evt: SDIO mode: slave=streaming host=streaming[0m
+[0;32mI (4701) eh_init_evt: chip=0x0d (esp32c6) fw=0x00030007 caps=0x01 ext=0x00000050[0m
+[0;32mI (4709) eh_auto_init: auto_init: found 1 descriptor(s)[0m
+[0;32mI (4713) eh_auto_init: auto_init: initialising 'wifi' (priority 150)[0m
+[0;32mI (4719) eh_wifi_itwt: wifi iTWT ext init[0m
+[0;32mI (5013) gc_net: auto reconnect on[0m
+[0;32mI (5013) eh_wifi: rx RPC WifiEventNoArgs id=2[0m
+[0;32mI (5014) main_task: Returned from app_main()[0m
+[0;32mI (5028) gc_net: STA start[0m
+[0;32mI (5028) eh_wifi: rx RPC WifiEventNoArgs id=2[0m
+[0;32mI (5058) gc_store: storage: SD card -> /sdcard/roms[0m
+[0;32mI (5058) gc_sys: chip: ESP32-P4 / 2核 / 360MHz / PSRAM 29MB / 档位 HIGH (rev 100, features 0x0, wifi=0 ble=0)[0m
+[0;33mW (5061) gc_sys: CPU 360MHz < 上限 400MHz：可把 CPU 主频调到 400MHz 以提升帧率[0m
+[0;32mI (5069) gc_sys: perf: flash 80m, psram 200MHz, cpu 360MHz, compiler -O2[0m
+[0;32mI (5076) gc_emu: registered core 'gambatte' for GB[0m
+[0;32mI (5080) gc_emu: registered core 'gambatte' for GBC[0m
+[0;32mI (5085) gc_emu: 硬件：ESP32-P4 / 2核 / 360MHz / PSRAM 29MB / 档位 HIGH[0m
+[0;32mI (5092) gc_emu: 可开放机种(3)：NES,GB,GBC[0m
+[0;32mI (5096) gc_emu: warmup NES ok (256x240)[0m
+[0;32mI (5112) gc_emu: warmup gambatte ok (160x144)[0m
+[0;32mI (5117) gc_store: SD scan: 0 ROMs[0m
+[0;32mI (5379) gc_net: auto connect to saved AP: liulaoxi[0m
+[0;32mI (5379) eh_wifi: set_config iface=STA ssid="liulaoxi" (8 bytes)[0m
+[0;33mW (5396) gc_ui: rot buffer too small (1280x180)[0m
+[0;33mW (5413) gc_ui: rot buffer too small (1280x180)[0m
+[0;33mW (5427) gc_ui: rot buffer too small (1280x180)[0m
+[0;33mW (5438) gc_ui: rot buffer too small (1280x180)[0m
+[0;32mI (8073) esp_wifi_remote: esp_wifi_internal_reg_rxcb: sta: 0x480f34f0[0m
+[0;32mI (9612) esp_netif_handlers: sta ip: 192.168.10.17, mask: 255.255.255.0, gw: 192.168.10.1[0m
+[0;32mI (9612) gc_net: got ip: 192.168.10.17[0m
+[0;32mI (9612) gc_provision: auto connected with saved credentials[0m
+[0;32mI (9617) gc_api: open platform: fetching token via client_credentials[0m
+[0;32mI (31893) gc_api: page 1: +24 games from OPEN platform (total 24)[0m
+[0;32mI (31893) gc_library: cloud page 1 loaded, games=24, pages=1/1[0m
+[0;33mW (32079) gc_ui: rot buffer too small (1244x185)[0m
+[0;33mW (32102) gc_ui: rot buffer too small (1244x185)[0m
+[0;33mW (32120) gc_ui: rot buffer too small (1244x185)[0m
+[1;31mE (37528) esp-tls-mbedtls: mbedtls_ssl_handshake returned -0x2700[0m
+[1;31mE (37528) esp-tls: Failed to open new connection[0m
+[1;31mE (37528) transport_base: Failed to open a new connection[0m
+[1;31mE (37537) HTTP_CLIENT: Connection failed, sock < 0[0m
+[1;31mE (37543) gc_api: download https://assets.8bitgo.com/covers/f1-race.jpg failed: ESP_ERR_HTTP_CONNECT (HTTP 0)[0m
+[1;31mE (37689) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (37689) task_wdt:  - IDLE0 (CPU 0)[0m
+[1;31mE (37689) task_wdt: Tasks currently running:[0m
+[1;31mE (37689) task_wdt: CPU 0: gc_cover[0m
+[1;31mE (37689) task_wdt: CPU 1: IDLE1[0m
+[1;31mE (37689) task_wdt: Print CPU 0 (current core) registers[0m
+Core  0 register dump:
+MEPC    : 0x4810ae28  RA      : 0x481163c4  SP      : 0x4ff66ce0  GP      : 0x4ff13e80  
+TP      : 0x4ff678e0  T0      : 0x4fc1a058  T1      : 0x0000000f  T2      : 0x72945ba5  
+S0/FP   : 0x0000000c  S1      : 0x4ff7fc08  A0      : 0x5010fe00  A1      : 0x00000019  
+A2      : 0x4ff66de8  A3      : 0x4ff66de8  A4      : 0x00000008  A5      : 0x00000000  
+A6      : 0xffffffff  A7      : 0x00000001  S2      : 0x0000017f  S3      : 0x4ff66de8  
+S4      : 0x4ff66de0  S5      : 0x00000004  S6      : 0x00000008  S7      : 0x00000003  
+S8      : 0x00000018  S9      : 0x00000001  S10     : 0x00000120  S11     : 0x00000000  
+T3      : 0xfab5180b  T4      : 0xfc9f15cb  T5      : 0x5385da26  T6      : 0xba03aa08  
+MSTATUS : 0x00001888  MTVEC   : 0x4ff00003  MCAUSE  : 0xdeadc0de  MTVAL   : 0xdeadc0de  
+MHARTID : 0x00000000  
+Please enable CONFIG_ESP_SYSTEM_USE_FRAME_POINTER option to have a full backtrace.
+[1;31mE (37892) esp-tls-mbedtls: mbedtls_ssl_setup returned -0x008D[0m
+[1;31mE (37892) esp-tls: create_ssl_handle failed[0m
+[1;31mE (37892) esp-tls: Failed to open new connection[0m
+[1;31mE (37894) transport_base: Failed to open a new connection[0m
+[1;31mE (37902) HTTP_CLIENT: Connection failed, sock < 0[0m
+[1;31mE (37909) gc_api: download https://assets.8bitgo.com/covers/16251818-zeek-the-geek-part-one-windows-start-the-game-and-youre-greeted-.png failed: ESP_ERR_HTTP_CONNECT (HTTP 0)[0m
+[1;31mE (38225) esp-tls-mbedtls: mbedtls_ssl_setup returned -0x008D[0m
+[1;31mE (38225) esp-tls: create_ssl_handle failed[0m
+[1;31mE (38225) esp-tls: Failed to open new connection[0m
+[1;31mE (38228) transport_base: Failed to open a new connection[0m
+[1;31mE (38238) HTTP_CLIENT: Connection failed, sock < 0[0m
+[1;31mE (38244) gc_api: download https://assets.8bitgo.com/covers/the-king-of-fighters-98.png failed: ESP_ERR_HTTP_CONNECT (HTTP 0)[0m
+[1;31mE (38545) esp-tls-mbedtls: mbedtls_ssl_setup returned -0x008D[0m
+[1;31mE (38545) esp-tls: create_ssl_handle failed[0m
+[1;31mE (38545) esp-tls: Failed to open new connection[0m
+[1;31mE (38548) transport_base: Failed to open a new connection[0m
+[1;31mE (38557) HTTP_CLIENT: Connection failed, sock < 0[0m
+[1;31mE (38563) gc_api: download https://assets.8bitgo.com/covers/need-for-speed.jpg failed: ESP_ERR_HTTP_CONNECT (HTTP 0)[0m
+[1;31mE (38842) esp-tls-mbedtls: mbedtls_ssl_setup returned -0x008D[0m
+[1;31mE (38842) esp-tls: create_ssl_handle failed[0m
+[1;31mE (38842) esp-tls: Failed to open new connection[0m
+[1;31mE (38844) transport_base: Failed to open a new connection[0m
+[1;31mE (38853) HTTP_CLIENT: Connection failed, sock < 0[0m
+[1;31mE (38860) gc_api: download https://assets.8bitgo.com/covers/xiaoxiao-no6.jpg failed: ESP_ERR_HTTP_CONNECT (HTTP 0)[0m
+[1;31mE (39085) esp-tls-mbedtls: mbedtls_ssl_handshake returned -0x2700[0m
+[1;31mE (39085) esp-tls: Failed to open new connection[0m
+[1;31mE (39085) transport_base: Failed to open a new connection[0m
+[1;31mE (39093) HTTP_CLIENT: Connection failed, sock < 0[0m
+[1;31mE (39097) gc_api: download https://assets.8bitgo.com/covers/pokemon-emerald.jpg failed: ESP_ERR_HTTP_CONNECT (HTTP 0)[0m
+[0;32mI (41317) gc_api: downloaded 30404 bytes -> /sdcard/covers/metal-slug-3.jpg[0m

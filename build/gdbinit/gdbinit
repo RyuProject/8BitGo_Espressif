@@ -1,0 +1,2 @@
+source /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/gdbinit/symbols
+source /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/gdbinit/connect

@@ -1,0 +1,13 @@
+Command: /Users/zhangwenyu/.espressif/python_env/idf6.0_py3.13_env/bin/python /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/tools/idf_monitor.py -p /dev/cu.usbserial-10 -b 115200 --toolchain-prefix riscv32-esp-elf- --target esp32p4 --revision 100 --decode-panic backtrace /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/esp_idf_project.elf /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/bootloader/bootloader.elf -m '/Users/zhangwenyu/.espressif/python_env/idf6.0_py3.13_env/bin/python' '/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/tools/idf.py'
+[0;33m--- esp-idf-monitor 1.9.0 on /dev/cu.usbserial-10 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x4ff28ed0: [0;33mcall_start_cpu0[0m[0m at [0;32m/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m27[0m
+[0m--- 0x4ff2bbd0: [0;33mis_xmc_chip_strict[0m[0m at [0;32m/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c[0m[0m:[1;31m925[0m
+[0m--- 0x4ff28ed0: [0;33mcall_start_cpu0[0m[0m at [0;32m/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m27[0m
+[0m--- 0x480f34f0: [0;33mwifi_sta_receive[0m[0m at [0;32m/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_wifi/src/wifi_netif.c[0m[0m:[1;31m39[0m
+[0;33m--- Stack dump detected[0m
+[0m--- 0x4810ae28: [0;33mmbedtls_mpi_core_bitlen[0m[0m at [0;32m/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/builtin/src/bignum_core.c[0m[0m:[1;31m62[0m
+[0m--- 0x481163c4: [0;33mbits_to_words[0m[0m at [0;32m/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/mbedtls/port/bignum/esp_bignum.c[0m[0m:[1;31m61[0m
+[0m--- (inlined by) [0;33mmbedtls_mpi_mul_mpi[0m[0m at [0;32m/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/mbedtls/port/bignum/esp_bignum.c[0m[0m:[1;31m494[0m
+[0m--- 0x4ff00003: [0;33m_vector_table[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m

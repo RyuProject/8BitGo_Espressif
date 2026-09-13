@@ -1,0 +1,80 @@
+Command: cmake -G Ninja -B /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/Users/zhangwenyu/.espressif/python_env/idf6.0_py3.13_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4
+-- Component directory /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/mqtt does not contain a CMakeLists.txt file. No component will be added
+-- Minimal build - OFF
+-- Building ESP-IDF components for target esp32p4
+NOTICE: Using component placed at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp32_p4_function_ev_board for dependency "espressif/esp32_p4_function_ev_board"(introduced by component "bsp_extra")
+NOTICE: Using component placed at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_lcd_jd9365 for dependency "esp_lcd_jd9365"(introduced by component "esp32_p4_function_ev_board")
+NOTICE: Using component placed at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_lcd_touch_gsl3680 for dependency "esp_lcd_touch_gsl3680"(introduced by component "esp32_p4_function_ev_board")
+NOTICE: Using component placed at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_cam_sensor for dependency "esp_cam_sensor"(introduced by component "esp_video")
+NOTICE: Using component placed at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp32_p4_function_ev_board for dependency "espressif/esp32_p4_function_ev_board", specified in /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/main/idf_component.yml
+NOTICE: Using component placed at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_api for dependency "gc_api", specified in /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/main/idf_component.yml
+NOTICE: Using component placed at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_emu for dependency "gc_emu", specified in /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/main/idf_component.yml
+NOTICE: Using component placed at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_net for dependency "gc_net", specified in /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/main/idf_component.yml
+NOTICE: Using component placed at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_prefs for dependency "gc_prefs", specified in /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/main/idf_component.yml
+NOTICE: Using component placed at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_store for dependency "gc_store", specified in /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/main/idf_component.yml
+NOTICE: Using component placed at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui for dependency "gc_ui", specified in /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/main/idf_component.yml
+NOTICE: Using component placed at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_lcd_jd9365 for dependency "esp_lcd_jd9365"(introduced by component "espressif/esp32_p4_function_ev_board"), specified in /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/main/idf_component.yml
+NOTICE: Using component placed at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_lcd_touch_gsl3680 for dependency "esp_lcd_touch_gsl3680"(introduced by component "espressif/esp32_p4_function_ev_board"), specified in /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/main/idf_component.yml
+NOTICE: Using component placed at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp32_p4_function_ev_board for dependency "espressif/esp32_p4_function_ev_board", specified in /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/bsp_extra/idf_component.yml
+NOTICE: Using component placed at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_lcd_jd9365 for dependency "esp_lcd_jd9365", specified in /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp32_p4_function_ev_board/idf_component.yml
+NOTICE: Using component placed at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_lcd_touch_gsl3680 for dependency "esp_lcd_touch_gsl3680", specified in /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp32_p4_function_ev_board/idf_component.yml
+NOTICE: Using component placed at /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_cam_sensor for dependency "esp_cam_sensor", specified in /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_video/idf_component.yml
+NOTICE: Processing 21 dependencies:
+NOTICE: [1/21] chmorgan/esp-audio-player (2.0.0)
+NOTICE: [2/21] chmorgan/esp-file-iterator (1.0.0)
+NOTICE: [3/21] chmorgan/esp-libhelix-mp3 (1.0.3)
+NOTICE: [4/21] espressif/cjson (1.7.19~2)
+NOTICE: [5/21] espressif/cmake_utilities (0.5.3)
+NOTICE: [6/21] espressif/eppp_link (1.1.6)
+NOTICE: [7/21] espressif/esp_codec_dev (1.6.2)
+NOTICE: [8/21] espressif/esp_h264 (1.4.0)
+NOTICE: [9/21] espressif/esp_hosted (3.0.7)
+NOTICE: [10/21] espressif/esp_ipa (0.2.0)
+NOTICE: [11/21] espressif/esp_lcd_ek79007 (1.0.4)
+NOTICE: [12/21] espressif/esp_lcd_ili9881c (1.1.0)
+NOTICE: [13/21] espressif/esp_lcd_touch (1.2.1)
+NOTICE: [14/21] espressif/esp_lcd_touch_gt911 (1.2.1)
+NOTICE: [15/21] espressif/esp_sccb_intf (0.0.9)
+NOTICE: [16/21] espressif/esp_serial_slave_link (1.1.2)
+NOTICE: [17/21] espressif/esp_wifi_remote (1.6.4)
+NOTICE: [18/21] espressif/usb (1.5.0)
+NOTICE: [19/21] espressif/wifi_remote_over_eppp (0.3.3)
+NOTICE: [20/21] lvgl/lvgl (9.5.0)
+NOTICE: [21/21] idf (6.0.2)
+-- CONFIG_AUDIO_PLAYER_ENABLE_HTTP_STREAM=
+-- CONFIG_AUDIO_PLAYER_ENABLE_MP3=
+-- esp_h264: ESP32-P4 prebuilt library profile: esp32p4
+-- CONFIG_ESP32P4_REV_MIN_FULL not defined, using default version
+-- ESP-TEE is currently supported only on the esp32c6;esp32h2;esp32c5;esp32c61 SoCs
+-- KCONFIG_REPORT_VERBOSITY not set, using default
+-- Project sdkconfig file /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/sdkconfig
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Adding linker script /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/riscv/ld/rom.api.ld
+-- App "esp_idf_project" version: e51e2f5-dirty
+-- Setting up mbedtls configuration
+-- Linkage type is PUBLIC
+-- Adding linker script /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_wdt/esp32p4/rom.wdt.ld
+-- Adding linker script /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_system/ld/esp32p4/memory.ld.in
+--   -> Preprocessing .in script: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_system/ld/esp32p4/memory.ld.in
+-- Adding linker script /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_system/ld/esp32p4/sections.ld.in
+--   -> Preprocessing .in script: /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_system/ld/esp32p4/sections.ld.in
+--   -> Applying ldgen processing: /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_rom/esp32p4/ld/esp32p4.rom.ld
+-- Adding linker script /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_rom/esp32p4/ld/esp32p4.rom.api.ld
+-- Adding linker script /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_rom/esp32p4/ld/esp32p4.rom.rvfp.ld
+-- Adding linker script /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_rom/esp32p4/ld/esp32p4.rom.systimer.ld
+-- Adding linker script /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_rom/esp32p4/ld/esp32p4.rom.version.ld
+-- Adding linker script /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_rom/esp32p4/ld/esp32p4.rom.libc.ld
+-- Adding linker script /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/soc/esp32p4/ld/esp32p4.peripherals.ld
+-- Configuring incomplete, errors occurred!

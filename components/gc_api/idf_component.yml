@@ -1,0 +1,4 @@
+dependencies:
+  espressif/cjson: "^1.7.19"
+  idf: ">=5.3"
+description: 8BitGo client - open platform API adapter

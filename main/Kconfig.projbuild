@@ -1,0 +1,117 @@
+menu "8BitGo Client"
+
+    config GC_WIFI_SSID
+        string "Wi-Fi SSID"
+        default "myssid"
+        help
+            设备启动后要连接的 AP 名称。
+
+    config GC_WIFI_PASSWORD
+        string "Wi-Fi Password"
+        default "mypassword"
+        help
+            AP 密码，开放网络留空。
+
+    config GC_WIFI_CONNECT_TIMEOUT_MS
+        int "Wi-Fi connect timeout (ms)"
+        default 20000
+        help
+            等待拿到 IPv4 的超时时间。
+
+    config GC_API_BASE_URL
+        string "8BitGo 开放平台 Base URL"
+        default "https://8bitgo.com"
+        help
+            开放平台地址，末尾不要带 '/'。
+
+    config GC_API_LIST_PATH
+        string "Game list API path"
+        default "/api/games"
+        help
+            游戏列表接口路径，最终请求为 <Base URL><path>。
+
+    config GC_API_TOKEN
+        string "Open platform access token"
+        default ""
+        help
+            开放平台令牌，会作为 Bearer Token 附在请求头。可留空。
+
+    config GC_API_OPEN_BASE_URL
+        string "Open platform (OAuth2) base URL"
+        default "https://8bitgo.com/api/open/v1"
+        help
+            开放平台 OAuth2 地址，末尾不带 '/'。列表与令牌都基于此。
+
+    config GC_API_OPEN_LIST_PATH
+        string "Open platform game list path"
+        default "/games"
+        help
+            相对 base 的游戏列表路径，最终为 <base><path>。真实路由是 /games。
+
+    config GC_API_TOKEN_URL
+        string "Open platform token endpoint"
+        default "/token"
+        help
+            相对 base 的 token 端点（client_credentials 取 Bearer）。
+
+    config GC_API_CLIENT_ID
+        string "Open platform AppID (client_id)"
+        default "app_98c0c42a752ab1d00c254574"
+        help
+            开放平台应用 AppID。
+
+    config GC_API_CLIENT_SECRET
+        string "Open platform AppKey (client_secret)"
+        default "o1r96xdcg-8785CaTlEwMrancHAZT8t831E5aEmleis"
+        help
+            开放平台应用 AppKey（测试 key，可公开）。
+
+    config GC_ROM_DIR
+        string "ROM storage directory"
+        default "/sdcard/roms"
+        help
+            ROM 存放目录。优先 SD 卡；SD 卡不可用时回退到 /spiffs/roms。
+
+    config GC_GITHUB_URL
+        string "Project GitHub URL"
+        default "https://github.com/Digit-Dog/8bitgo_esp32p4"
+        help
+            设置页「GitHub」里展示的仓库地址。
+
+    config GC_EMU_SCREEN_W
+        int "Emulator framebuffer width"
+        default 256
+        help
+            NES 原生分辨率宽度。
+
+    config GC_EMU_SCREEN_H
+        int "Emulator framebuffer height"
+        default 240
+        help
+            NES 原生分辨率高度。
+
+    menu "Hardware"
+        config GC_BATTERY_ADC_GPIO
+            int "Battery voltage ADC1 GPIO (-1 to disable)"
+            default -1
+            range -1 10
+            help
+                VBAT 分压电阻中点所接的 GPIO。ESP32-P4 的 ADC1 通道映射为
+                GPIO1..GPIO10 -> CH0..CH9。设为 -1 表示本板未做电池检测，
+                诊断页会显示"未检测"。
+
+        config GC_BATTERY_DIV_NUM
+            int "Battery divider numerator"
+            default 2
+            help
+                ADC 电压到实际电池电压的倍率：实际电压 = ADC电压 * NUM / DEN。
+                例如 VBAT 经 1:2 分压（ADC 只测到一半）则 NUM=2 DEN=1。
+
+        config GC_BATTERY_DIV_DEN
+            int "Battery divider denominator"
+            default 1
+            help
+                分压倍率分母（见 GC_BATTERY_DIV_NUM）。
+    endmenu
+
+endmenu

@@ -1,0 +1,5 @@
+dependencies:
+  espressif/esp_wifi_remote: "^1.6.0"
+  espressif/esp_hosted: "^3.0.7"
+  idf: ">=5.5"
+description: 8BitGo client - Wi-Fi via ESP32-C6 (esp_wifi_remote + esp-hosted)

@@ -1,0 +1,174 @@
+Command: ninja all
+[1/130] Linking C static library esp-idf/espressif__esp_sccb_intf/libespressif__esp_sccb_intf.a
+[2/130] Linking C static library esp-idf/gc_ui/libgc_ui.a
+[3/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/port/src/esp_h264_alloc.c.obj
+[4/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/interface/src/esp_h264_dec_param.c.obj
+[5/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/port/src/esp_h264_cache.c.obj
+[6/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/interface/src/esp_h264_dec.c.obj
+[7/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/interface/src/esp_h264_enc_dual.c.obj
+[8/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/interface/src/esp_h264_enc_single.c.obj
+[9/130] Building C object esp-idf/esp_cam_sensor/CMakeFiles/__idf_esp_cam_sensor.dir/src/esp_cam_sensor_xclk.c.obj
+[10/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/sw/src/esp_h264_enc_sw_param.c.obj
+[11/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/interface/src/esp_h264_enc_param.c.obj
+[12/130] Building C object esp-idf/esp_cam_sensor/CMakeFiles/__idf_esp_cam_sensor.dir/src/esp_cam_sensor.c.obj
+[13/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/sw/src/esp_h264_dec_sw.c.obj
+[14/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/interface/src/esp_h264_enc_param_hw.c.obj
+[15/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/sw/src/esp_h264_enc_single_sw.c.obj
+[16/130] Building C object esp-idf/espressif__esp_ipa/CMakeFiles/__idf_espressif__esp_ipa.dir/esp_video_ipa_config.c.obj
+[17/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/sw/src/h264_color_convert.c.obj
+[18/130] Building C object esp-idf/espressif__esp_ipa/CMakeFiles/__idf_espressif__esp_ipa.dir/src/version.c.obj
+[19/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/hal/esp32p4/h264_dma_hal.c.obj
+[20/130] Linking C static library esp-idf/unity/libunity.a
+[21/130] Building C object esp-idf/esp_driver_gptimer/CMakeFiles/__idf_esp_driver_gptimer.dir/src/gptimer_etm.c.obj
+[22/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/src/h264_rc.c.obj
+[23/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/hal/esp32p4/h264_hal.c.obj
+[24/130] Linking C static library esp-idf/esp_hal_ana_cmpr/libesp_hal_ana_cmpr.a
+[25/130] Building C object esp-idf/cmock/CMakeFiles/__idf_cmock.dir/CMock/src/cmock.c.obj
+[26/130] Building C object esp-idf/esp_driver_gptimer/CMakeFiles/__idf_esp_driver_gptimer.dir/src/gptimer_common.c.obj
+[27/130] Building C object esp-idf/esp_driver_ana_cmpr/CMakeFiles/__idf_esp_driver_ana_cmpr.dir/ana_cmpr_etm.c.obj
+[28/130] Linking C static library esp-idf/esp_driver_cam/libesp_driver_cam.a
+[29/130] Linking C static library esp-idf/esp_hal_mcpwm/libesp_hal_mcpwm.a
+[30/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/src/h264_nal.c.obj
+[31/130] Building C object esp-idf/esp_blockdev_util/CMakeFiles/__idf_esp_blockdev_util.dir/generic_partition.c.obj
+[32/130] Linking C static library esp-idf/esp_driver_jpeg/libesp_driver_jpeg.a
+[33/130] Building C object esp-idf/esp_blockdev_util/CMakeFiles/__idf_esp_blockdev_util.dir/memory.c.obj
+[34/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/src/esp_h264_enc_single_hw.c.obj
+[35/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/src/esp_h264_enc_dual_hw.c.obj
+[36/130] Building C object esp-idf/esp_driver_gptimer/CMakeFiles/__idf_esp_driver_gptimer.dir/src/gptimer.c.obj
+[37/130] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/src/esp_h264_enc_hw_param.c.obj
+[38/130] Linking C static library esp-idf/esp_hal_pcnt/libesp_hal_pcnt.a
+[39/130] Building C object esp-idf/gc_library/CMakeFiles/__idf_gc_library.dir/gc_library.c.obj
+[40/130] Linking C static library esp-idf/esp_hal_rmt/libesp_hal_rmt.a
+[41/130] Building C object esp-idf/esp_driver_ana_cmpr/CMakeFiles/__idf_esp_driver_ana_cmpr.dir/ana_cmpr.c.obj
+[42/130] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_com.c.obj
+[43/130] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_sync.c.obj
+[44/130] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_etm.c.obj
+[45/130] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_cmpr.c.obj
+[46/130] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_fault.c.obj
+[47/130] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_cap.c.obj
+[48/130] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_oper.c.obj
+[49/130] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_gen.c.obj
+[50/130] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_timer.c.obj
+[51/130] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.obj
+[52/130] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.obj
+[53/130] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.obj
+[54/130] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.obj
+[55/130] Building C object esp-idf/esp_driver_tsens/CMakeFiles/__idf_esp_driver_tsens.dir/src/temperature_sensor_etm.c.obj
+[56/130] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.obj
+[57/130] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bs.c.obj
+[58/130] Building C object esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.obj
+[59/130] Linking C static library esp-idf/esp_eth/libesp_eth.a
+[60/130] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidd.c.obj
+[61/130] Linking C static library esp-idf/esp_https_server/libesp_https_server.a
+[62/130] Linking C static library esp-idf/protocomm/libprotocomm.a
+[63/130] Building C object esp-idf/esp_driver_twai/CMakeFiles/__idf_esp_driver_twai.dir/esp_twai.c.obj
+[64/130] Building C object esp-idf/esp_driver_tsens/CMakeFiles/__idf_esp_driver_tsens.dir/src/temperature_sensor.c.obj
+[65/130] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hid_common.c.obj
+[66/130] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_handler.c.obj
+[67/130] Building C object esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj
+[68/130] Building C object esp-idf/esp_driver_i3c/CMakeFiles/__idf_esp_driver_i3c.dir/i3c_master.c.obj
+[69/130] Linking C static library esp-idf/espressif__esp_serial_slave_link/libespressif__esp_serial_slave_link.a
+[70/130] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/proto-c/esp_local_ctrl.pb-c.c.obj
+[71/130] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl_transport_httpd.c.obj
+[72/130] Linking C static library esp-idf/gc_provision/libgc_provision.a
+[73/130] Building C object esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_utils.c.obj
+[74/130] Building C object esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/src/esp_local_ctrl.c.obj
+[75/130] Linking C static library esp-idf/gc_library/libgc_library.a
+[76/130] Building C object esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/common/touch_sens_common.c.obj
+[77/130] Linking C static library esp-idf/chmorgan__esp-file-iterator/libchmorgan__esp-file-iterator.a
+[78/130] Linking C static library esp-idf/chmorgan__esp-audio-player/libchmorgan__esp-audio-player.a
+[79/130] Building C object esp-idf/espressif__eppp_link/CMakeFiles/__idf_espressif__eppp_link.dir/eppp_uart.c.obj
+[80/130] Building C object esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/src/esp_hidh.c.obj
+[81/130] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.obj
+[82/130] Building C object esp-idf/rt/CMakeFiles/__idf_rt.dir/FreeRTOS_POSIX_mqueue.c.obj
+[83/130] Building C object esp-idf/espressif__eppp_link/CMakeFiles/__idf_espressif__eppp_link.dir/eppp_link.c.obj
+[84/130] Linking C static library esp-idf/esp_cam_sensor/libesp_cam_sensor.a
+[85/130] Building C object esp-idf/esp_driver_touch_sens/CMakeFiles/__idf_esp_driver_touch_sens.dir/hw_ver3/touch_version_specific.c.obj
+[86/130] Building CXX object esp-idf/espressif__eppp_link/CMakeFiles/__idf_espressif__eppp_link.dir/eppp_link_netif.cpp.obj
+[87/130] Linking C static library esp-idf/espressif__esp_ipa/libespressif__esp_ipa.a
+[88/130] Building C object esp-idf/esp_driver_twai/CMakeFiles/__idf_esp_driver_twai.dir/esp_twai_onchip.c.obj
+[89/130] Linking C static library esp-idf/espressif__esp_h264/libespressif__esp_h264.a
+[90/130] Building C object esp-idf/espressif__eppp_link/CMakeFiles/__idf_espressif__eppp_link.dir/eppp_netif_tun.c.obj
+[91/130] Linking C static library esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a
+[92/130] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/esp_video_mman.c.obj
+[93/130] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj
+[94/130] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/esp_video_buffer.c.obj
+[95/130] Linking C static library esp-idf/cmock/libcmock.a
+[96/130] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj 
+/Users/zhangwenyu/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -DCJSON_CIRCULAR_LIMIT=10000 -DCJSON_NESTING_LIMIT=1000 -DESP_PLATFORM -DIDF_VER=\"v6.0.2-dirty\" -DLV_CONF_INCLUDE_SIMPLE -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/config -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/main -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_libc/platform_include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/freertos/config/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/freertos/config/include/freertos -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/freertos/config/riscv/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/freertos/esp_additions/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/include/soc -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/ldo/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/debug_probe/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/etm/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/mspi_timing_tuning/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/mspi_timing_tuning/tuning_scheme_impl/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/power_supply/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/modem/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/port/esp32p4/. -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/port/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/port/esp32p4/private_include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/mspi_timing_tuning/port/esp32p4/. -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/heap/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/heap/tlsf -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/log/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/soc/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/soc/esp32p4 -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/soc/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/soc/esp32p4/register/hw_ver1 -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/hal/platform_port/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/hal/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/hal/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_rom/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_rom/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_rom/esp32p4/include/esp32p4 -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_rom/esp32p4 -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_common/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_system/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_system/port/soc -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_system/port/include/riscv -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_system/port/include/private -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_stdio/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/riscv/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_gpio/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_gpio/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_usb/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_usb/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_pmu/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_pmu/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_ana_conv/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_ana_conv/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_dma/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_dma/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_timer/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/lwip/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/lwip/include/apps -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/lwip/lwip/src/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/lwip/port/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/lwip/port/freertos/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/lwip/port/esp32xx/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/lwip/port/esp32xx/include/arch -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/lwip/port/esp32xx/include/sys -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_net/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_wifi_remote/idf_v6.0/include/injected -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_wifi/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_wifi/wifi_apps/nan_app/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_event/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_netif/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_wifi_remote/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_wifi_remote/idf_v6.0/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_api/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_http_client/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__cjson/cJSON -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_store/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp32_p4_function_ev_board/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/driver/i2c/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/driver/touch_sensor/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/driver/twai/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_i2c/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_i2c/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_twai/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_twai/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_touch_sens/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_touch_sens/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_lcd/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_lcd/interface -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_lcd/rgb/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_lcd/dsi/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_driver_gpio/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_driver_i2c/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_driver_spi/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_pm/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_gpspi/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_gpspi/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_driver_dma/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_driver_parlio/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_parlio/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_parlio/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_lcd/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_lcd/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_driver_ledc/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_ledc/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_ledc/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_driver_i2s/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_i2s/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_i2s/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_driver_sdmmc/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_driver_sdmmc/legacy/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_driver_sd_intf/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/sdmmc/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_blockdev/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_sd/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_sd/esp32p4/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_codec_dev/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_codec_dev/interface -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_codec_dev/device/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/vfs/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_emu/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_prefs/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_gambatte/gambatte/libgambatte/src -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_gambatte/gambatte/libgambatte/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_gambatte/gambatte/common -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_gambatte/gambatte/libgambatte/libretro -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_gambatte/gambatte/libgambatte/libretro-common/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_font/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/lvgl__lvgl -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/lvgl__lvgl/src -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/lvgl__lvgl/examples -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/lvgl__lvgl/demos -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ble/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_lcd_touch/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_provision/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_library/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/compat/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/features/eh_host_feat_bt/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/features/eh_host_feat_cli/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/features/eh_host_feat_cp_ext_coex/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/features/eh_host_feat_gpio_exp/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/features/eh_host_feat_heartbeat/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/features/eh_host_feat_mem_monitor/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/features/eh_host_feat_nw_split/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/features/eh_host_feat_openthread/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/features/eh_host_feat_peer_data/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/features/eh_host_feat_power_save/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/features/eh_host_feat_rpc/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/features/eh_host_feat_rpc_ext_v2/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/features/eh_host_feat_system/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/features/eh_host_feat_wifi/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/features/eh_host_feat_wifi_ext_dpp/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/features/eh_host_feat_wifi_ext_ent/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/features/eh_host_feat_wifi_ext_itwt/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/examples/common_components/esp_hosted_bt_host_stack/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/common/eh_common/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/common/eh_tlv/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/common/eh_frame/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/port/os/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/eh_host_config/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/common/serializers/eh_proto_v2/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/common/serializers/third_party/msg_codec/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/common/serializers/third_party/msg_codec/protobuf-c -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/eh_host_autoinit/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/mcu/eh_host_mcu_vserial/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/mcu/eh_host_mcu_transport/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/common/eh_mempool/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/host/eh_host_core/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_hosted/port/os/idf/../include @"/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/toolchain/cflags" -fdiagnostics-color=always -Wno-format -Wno-ignored-qualifiers -Wno-attributes -Wno-unused-function -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-error=extra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -O2 -fmacro-prefix-map=/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4=. -fmacro-prefix-map=/Users/zhangwenyu/.espressif/v6.0.2/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu23 -Wno-old-style-declaration -fzero-init-padding-bits=all -fno-malloc-dce -Wno-error=switch -include eh_host_port_master_config.h -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -MF esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -c /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/main/main.c
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/main/main.c: In function 'app_main':
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/main/main.c:167:31: error: passing argument 1 of 'gc_provision_set_ready_cb' from incompatible pointer type [-Wincompatible-pointer-types]
+  167 |     gc_provision_set_ready_cb(gc_library_on_connected, NULL);
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~
+      |                               |
+      |                               void (*)(void)
+In file included from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/main/main.c:40:
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_provision/include/gc_provision.h:41:39: note: expected 'void (*)(void *)' but argument is of type 'void (*)(void)'
+   41 | void gc_provision_set_ready_cb(void (*cb)(void *ctx), void *ctx);
+      |                                ~~~~~~~^~~~~~~~~~~~~~
+In file included from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/main/main.c:41:
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_library/include/gc_library.h:37:6: note: 'gc_library_on_connected' declared here
+   37 | void gc_library_on_connected(void);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+[97/130] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/esp_video_ioctl.c.obj
+[98/130] Linking C static library esp-idf/esp_blockdev_util/libesp_blockdev_util.a
+[99/130] Linking C static library esp-idf/esp_driver_ana_cmpr/libesp_driver_ana_cmpr.a
+[100/130] Linking C static library esp-idf/esp_driver_i3c/libesp_driver_i3c.a
+[101/130] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/esp_video_vfs.c.obj
+[102/130] Building C object esp-idf/bsp_extra/CMakeFiles/__idf_bsp_extra.dir/src/bsp_board_extra.c.obj
+In file included from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/bsp_extra/src/bsp_board_extra.c:16:
+/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/driver/i2c/include/driver/i2c.h:13:9: note: '#pragma message: 
+================================ CRITICAL WARNING ================================
+This legacy I2C driver (driver/i2c.h) is officially END-OF-LIFE (EOL) as of ESP-IDF v6.0.
+
+1. NO SUPPORT: ESP-IDF will not provide updates, bug fixes, or security patches timely.
+2. PLANNED REMOVAL: This driver WILL BE REMOVED in ESP-IDF v7.0 (next major release).
+3. ACTION REQUIRED: Migrate to 'driver/i2c_master.h' or 'driver/i2c_slave.h' immediately.
+   - If you are a library maintainer, please update your code.
+   - If you are using 3rd-party libraries, contact the authors for updates.
+
+4. SUPPRESS WARNING: Set Kconfig 'CONFIG_I2C_SUPPRESS_DEPRECATE_WARN=y' to silent
+   this warning. However, by doing so, YOU ASSUME ALL RISKS including potential
+   security vulnerabilities, system instability, and future incompatibility.
+
+For API reference of the new I2C driver, see: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/i2c.html
+For other items about migration, see: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/migration-guides/index.html
+==================================================================================
+   '
+   13 | #pragma message("\n" \
+      |         ^~~~~~~
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/bsp_extra/src/bsp_board_extra.c: In function 'bsp_extra_i2s_write':
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/bsp_extra/src/bsp_board_extra.c:77:48: warning: passing argument 2 of 'esp_codec_dev_write' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   77 |     ret = esp_codec_dev_write(play_dev_handle, audio_buffer, len);
+      |                                                ^~~~~~~~~~~~
+In file included from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp32_p4_function_ev_board/include/bsp/esp32_p4_function_ev_board.h:21,
+                 from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp32_p4_function_ev_board/include/bsp/esp-bsp.h:8,
+                 from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/bsp_extra/src/bsp_board_extra.c:21:
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_codec_dev/include/esp_codec_dev.h:158:61: note: expected 'void *' but argument is of type 'const void *'
+  158 | int esp_codec_dev_write(esp_codec_dev_handle_t codec, void *data, int len);
+      |                                                       ~~~~~~^~~~
+[103/130] Linking C static library esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
+[104/130] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/device/esp_video_dvp_device.c.obj
+[105/130] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/esp_video_init.c.obj
+[106/130] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/esp_video_sensor.c.obj
+[107/130] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/device/esp_video_csi_device.c.obj
+[108/130] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/esp_video.c.obj
+[109/130] Building C object esp-idf/esp_video/CMakeFiles/__idf_esp_video.dir/src/device/esp_video_isp_device.c.obj
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_video/src/device/esp_video_isp_device.c: In function 'isp_start_awb':
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_video/src/device/esp_video_isp_device.c:543:9: warning: 'ISP_AWB_SAMPLE_POINT_BEFORE_CCM' is deprecated: Use ISP_AWB_SAMPLE_POINT_0 instead [-Wdeprecated-declarations]
+  543 |         .sample_point = ISP_AWB_SAMPLE_POINT_BEFORE_CCM,
+      |         ^
+In file included from /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_cam/esp32p4/include/hal/isp_ll.h:16,
+                 from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_video/src/device/esp_video_isp_device.c:16:
+/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_cam/include/hal/isp_types.h:144:5: note: declared here
+  144 |     ISP_AWB_SAMPLE_POINT_BEFORE_CCM __attribute__((deprecated("Use ISP_AWB_SAMPLE_POINT_0 instead"))) = ISP_AWB_SAMPLE_POINT_0,    ///< Deprecated alias of `ISP_AWB_SAMPLE_POINT_0`
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_video/src/device/esp_video_isp_device.c: In function 'isp_start_ae':
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/esp_video/src/device/esp_video_isp_device.c:716:9: warning: 'ISP_AE_SAMPLE_POINT_AFTER_GAMMA' is deprecated: Use ISP_AE_SAMPLE_POINT_1 instead [-Wdeprecated-declarations]
+  716 |         .sample_point = ISP_AE_SAMPLE_POINT_AFTER_GAMMA,
+      |         ^
+/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_cam/include/hal/isp_types.h:114:5: note: declared here
+  114 |     ISP_AE_SAMPLE_POINT_AFTER_GAMMA __attribute__((deprecated("Use ISP_AE_SAMPLE_POINT_1 instead"))) = ISP_AE_SAMPLE_POINT_1,       ///< Deprecated alias of `ISP_AE_SAMPLE_POINT_1`
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ninja: build stopped: subcommand failed.

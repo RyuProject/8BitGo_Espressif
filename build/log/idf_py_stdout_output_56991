@@ -1,0 +1,114 @@
+Command: ninja all
+[1/144] Linking C static library esp-idf/espressif__esp_sccb_intf/libespressif__esp_sccb_intf.a
+[2/144] Linking C static library esp-idf/chmorgan__esp-libhelix-mp3/libchmorgan__esp-libhelix-mp3.a
+[3/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/port/src/esp_h264_alloc.c.obj
+[4/144] Building C object esp-idf/chmorgan__esp-file-iterator/CMakeFiles/__idf_chmorgan__esp-file-iterator.dir/file_iterator.c.obj
+[5/144] Building C object esp-idf/esp_cam_sensor/CMakeFiles/__idf_esp_cam_sensor.dir/src/esp_cam_sensor_xclk.c.obj
+[6/144] Building C object esp-idf/gc_emu/CMakeFiles/__idf_gc_emu.dir/gc_emu_nes.c.obj
+[7/144] Building C object esp-idf/esp_cam_sensor/CMakeFiles/__idf_esp_cam_sensor.dir/src/esp_cam_sensor.c.obj
+[8/144] Building CXX object esp-idf/chmorgan__esp-audio-player/CMakeFiles/__idf_chmorgan__esp-audio-player.dir/audio_wav.cpp.obj
+[9/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/port/src/esp_h264_cache.c.obj
+[10/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/interface/src/esp_h264_dec_param.c.obj
+[11/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/interface/src/esp_h264_dec.c.obj
+[12/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/interface/src/esp_h264_enc_dual.c.obj
+[13/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/interface/src/esp_h264_enc_single.c.obj
+[14/144] Building CXX object esp-idf/chmorgan__esp-audio-player/CMakeFiles/__idf_chmorgan__esp-audio-player.dir/audio_stream_io.cpp.obj
+[15/144] Building C object esp-idf/gc_net/CMakeFiles/__idf_gc_net.dir/gc_net.c.obj
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_net/gc_net.c:21:2: warning: #warning "CONFIG_ESP_HOST_WIFI_ENABLED is not set: ESP32-P4 需要 esp_wifi_remote 才能使用 Wi-Fi。" "请在 menuconfig 中开启 (Component config -> ESP-Hosted/Wi-Fi remote) 或把该选项加入 sdkconfig.defaults。" [-Wcpp]
+   21 | #warning "CONFIG_ESP_HOST_WIFI_ENABLED is not set: ESP32-P4 需要 esp_wifi_remote 才能使用 Wi-Fi。" \
+      |  ^~~~~~~
+[16/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/sw/src/esp_h264_dec_sw.c.obj
+[17/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/interface/src/esp_h264_enc_param.c.obj
+[18/144] Building C object esp-idf/gc_store/CMakeFiles/__idf_gc_store.dir/gc_store.c.obj
+[19/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/interface/src/esp_h264_enc_param_hw.c.obj
+[20/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/sw/src/esp_h264_enc_sw_param.c.obj
+[21/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/sw/src/h264_color_convert.c.obj
+[22/144] Building C object esp-idf/espressif__esp_ipa/CMakeFiles/__idf_espressif__esp_ipa.dir/esp_video_ipa_config.c.obj
+[23/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/src/h264_rc.c.obj
+[24/144] Building C object esp-idf/gc_ui/CMakeFiles/__idf_gc_ui.dir/gc_ui.c.obj
+FAILED: esp-idf/gc_ui/CMakeFiles/__idf_gc_ui.dir/gc_ui.c.obj 
+/Users/zhangwenyu/.espressif/tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin/riscv32-esp-elf-gcc -DCJSON_CIRCULAR_LIMIT=10000 -DCJSON_NESTING_LIMIT=1000 -DESP_PLATFORM -DIDF_VER=\"v6.0.2\" -DLV_CONF_INCLUDE_SIMPLE -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/config -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_libc/platform_include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/freertos/config/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/freertos/config/include/freertos -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/freertos/config/riscv/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/include/freertos -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/freertos/esp_additions/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/include/soc -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/ldo/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/debug_probe/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/etm/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/mspi_timing_tuning/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/mspi_timing_tuning/tuning_scheme_impl/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/power_supply/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/modem/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/port/esp32p4/. -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/port/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/port/esp32p4/private_include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hw_support/mspi_timing_tuning/port/esp32p4/. -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/heap/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/heap/tlsf -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/log/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/soc/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/soc/esp32p4 -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/soc/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/soc/esp32p4/register/hw_ver1 -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/hal/platform_port/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/hal/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/hal/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_rom/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_rom/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_rom/esp32p4/include/esp32p4 -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_rom/esp32p4 -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_common/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_system/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_system/port/soc -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_system/port/include/riscv -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_system/port/include/private -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_stdio/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/riscv/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_gpio/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_gpio/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_usb/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_usb/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_pmu/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_pmu/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_ana_conv/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_ana_conv/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_dma/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_dma/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_timer/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/lwip/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/lwip/include/apps -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/lwip/lwip/src/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/lwip/port/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/lwip/port/freertos/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/lwip/port/esp32xx/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/lwip/port/esp32xx/include/arch -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/lwip/port/esp32xx/include/sys -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_api/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_http_client/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_event/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__cjson/cJSON -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_lcd/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_lcd/interface -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_lcd/rgb/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_lcd/dsi/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_driver_gpio/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_driver_i2c/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_i2c/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_i2c/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_driver_spi/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_pm/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_gpspi/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_gpspi/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_driver_dma/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_driver_parlio/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_parlio/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_parlio/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_lcd/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_lcd/esp32p4/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_lcd_touch/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/driver/i2c/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/driver/touch_sensor/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/driver/twai/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_twai/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_twai/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_touch_sens/esp32p4/include -I/Users/zhangwenyu/.espressif/v6.0.2/esp-idf/components/esp_hal_touch_sens/include -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/lvgl__lvgl -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/lvgl__lvgl/src -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/lvgl__lvgl/examples -I/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/lvgl__lvgl/demos @"/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/build/toolchain/cflags" -fdiagnostics-color=always -Wno-format -Wno-ignored-qualifiers -Wno-attributes -Wno-unused-function -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-error=extra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -O2 -fmacro-prefix-map=/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4=. -fmacro-prefix-map=/Users/zhangwenyu/.espressif/v6.0.2/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu23 -Wno-old-style-declaration -fzero-init-padding-bits=all -fno-malloc-dce -Wno-error=switch -MD -MT esp-idf/gc_ui/CMakeFiles/__idf_gc_ui.dir/gc_ui.c.obj -MF esp-idf/gc_ui/CMakeFiles/__idf_gc_ui.dir/gc_ui.c.obj.d -o esp-idf/gc_ui/CMakeFiles/__idf_gc_ui.dir/gc_ui.c.obj -c /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c: In function 'lvgl_touch_cb':
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c:84:5: warning: 'esp_lcd_touch_get_coordinates' is deprecated: This API will be removed in version 2.0.0. Use esp_lcd_touch_get_data instead! [-Wdeprecated-declarations]
+   84 |     if (esp_lcd_touch_get_coordinates(tp, &x, &y, &strength, &cnt, 1) && cnt > 0) {
+      |     ^~
+In file included from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/include/gc_ui.h:17,
+                 from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c:15:
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/espressif__esp_lcd_touch/include/esp_lcd_touch.h:317:6: note: declared here
+  317 | bool esp_lcd_touch_get_coordinates(esp_lcd_touch_handle_t tp, uint16_t *x, uint16_t *y, uint16_t *strength, uint8_t *point_num, uint8_t max_point_num);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c: In function 'gc_ui_enter_game':
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c:313:63: error: 'GC_PAD_LEFT' undeclared (first use in this function); did you mean 'LV_GRAD_LEFT'?
+  313 |     add_pad_btn(s_scr_game, 20, bottom - bs * 2, bs, bs, "<", GC_PAD_LEFT);
+      |                                                               ^~~~~~~~~~~
+      |                                                               LV_GRAD_LEFT
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c:313:63: note: each undeclared identifier is reported only once for each function it appears in
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c:314:73: error: 'GC_PAD_RIGHT' undeclared (first use in this function); did you mean 'LV_GRAD_RIGHT'?
+  314 |     add_pad_btn(s_scr_game, 20 + bs + 15, bottom - bs * 2, bs, bs, ">", GC_PAD_RIGHT);
+      |                                                                         ^~~~~~~~~~~~
+      |                                                                         LV_GRAD_RIGHT
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c:315:73: error: 'GC_PAD_UP' undeclared (first use in this function)
+  315 |     add_pad_btn(s_scr_game, 20 + bs, bottom - bs * 3 - 10, bs, bs, "^", GC_PAD_UP);
+      |                                                                         ^~~~~~~~~
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c:316:64: error: 'GC_PAD_DOWN' undeclared (first use in this function)
+  316 |     add_pad_btn(s_scr_game, 20 + bs, bottom - bs, bs, bs, "v", GC_PAD_DOWN);
+      |                                                                ^~~~~~~~~~~
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c:318:77: error: 'GC_PAD_B' undeclared (first use in this function)
+  318 |     add_pad_btn(s_scr_game, s_hres - bs * 2 - 30, bottom - bs, bs, bs, "B", GC_PAD_B);
+      |                                                                             ^~~~~~~~
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c:319:82: error: 'GC_PAD_A' undeclared (first use in this function)
+  319 |     add_pad_btn(s_scr_game, s_hres - bs - 15, bottom - bs * 2 - 10, bs, bs, "A", GC_PAD_A);
+      |                                                                                  ^~~~~~~~
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c:320:82: error: 'GC_PAD_SELECT' undeclared (first use in this function); did you mean 'LV_PART_SELECTED'?
+  320 |     add_pad_btn(s_scr_game, s_hres / 2 - bs, bottom - bs / 2, bs, bs / 2, "SEL", GC_PAD_SELECT);
+      |                                                                                  ^~~~~~~~~~~~~
+      |                                                                                  LV_PART_SELECTED
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c:321:82: error: 'GC_PAD_START' undeclared (first use in this function)
+  321 |     add_pad_btn(s_scr_game, s_hres / 2 + 10, bottom - bs / 2, bs, bs / 2, "STA", GC_PAD_START);
+      |                                                                                  ^~~~~~~~~~~~
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c: In function 'gc_ui_init':
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c:404:41: error: passing argument 2 of 'lv_display_set_draw_buffers' from incompatible pointer type [-Wincompatible-pointer-types]
+  404 |     lv_display_set_draw_buffers(s_disp, buf1, buf2, buf_px, LV_DISPLAY_RENDER_MODE_PARTIAL);
+      |                                         ^~~~
+      |                                         |
+      |                                         lv_color_t *
+In file included from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/lvgl__lvgl/src/core/lv_obj_tree.h:18,
+                 from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/lvgl__lvgl/src/core/lv_obj.h:24,
+                 from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/lvgl__lvgl/lvgl.h:44,
+                 from /Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c:27:
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/lvgl__lvgl/src/core/../display/lv_display.h:293:71: note: expected 'lv_draw_buf_t *' {aka 'struct _lv_draw_buf_t *'} but argument is of type 'lv_color_t *'
+  293 | void lv_display_set_draw_buffers(lv_display_t * disp, lv_draw_buf_t * buf1, lv_draw_buf_t * buf2);
+      |                                                       ~~~~~~~~~~~~~~~~^~~~
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c:404:47: error: passing argument 3 of 'lv_display_set_draw_buffers' from incompatible pointer type [-Wincompatible-pointer-types]
+  404 |     lv_display_set_draw_buffers(s_disp, buf1, buf2, buf_px, LV_DISPLAY_RENDER_MODE_PARTIAL);
+      |                                               ^~~~
+      |                                               |
+      |                                               lv_color_t *
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/lvgl__lvgl/src/core/../display/lv_display.h:293:93: note: expected 'lv_draw_buf_t *' {aka 'struct _lv_draw_buf_t *'} but argument is of type 'lv_color_t *'
+  293 | void lv_display_set_draw_buffers(lv_display_t * disp, lv_draw_buf_t * buf1, lv_draw_buf_t * buf2);
+      |                                                                             ~~~~~~~~~~~~~~~~^~~~
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/components/gc_ui/gc_ui.c:404:5: error: too many arguments to function 'lv_display_set_draw_buffers'; expected 3, have 5
+  404 |     lv_display_set_draw_buffers(s_disp, buf1, buf2, buf_px, LV_DISPLAY_RENDER_MODE_PARTIAL);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~                     ~~~~~~
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/lvgl__lvgl/src/core/../display/lv_display.h:293:6: note: declared here
+  293 | void lv_display_set_draw_buffers(lv_display_t * disp, lv_draw_buf_t * buf1, lv_draw_buf_t * buf2);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[25/144] Building C object esp-idf/espressif__esp_ipa/CMakeFiles/__idf_espressif__esp_ipa.dir/src/version.c.obj
+[26/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/sw/src/esp_h264_enc_single_sw.c.obj
+[27/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/hal/esp32p4/h264_dma_hal.c.obj
+[28/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/hal/esp32p4/h264_hal.c.obj
+[29/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/src/h264_nal.c.obj
+[30/144] Building CXX object esp-idf/chmorgan__esp-audio-player/CMakeFiles/__idf_chmorgan__esp-audio-player.dir/audio_mixer.cpp.obj
+[31/144] Building CXX object esp-idf/chmorgan__esp-audio-player/CMakeFiles/__idf_chmorgan__esp-audio-player.dir/audio_mp3.cpp.obj
+[32/144] Building CXX object esp-idf/chmorgan__esp-audio-player/CMakeFiles/__idf_chmorgan__esp-audio-player.dir/audio_player.cpp.obj
+[33/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/src/esp_h264_enc_single_hw.c.obj
+[34/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/src/esp_h264_enc_dual_hw.c.obj
+[35/144] Building CXX object esp-idf/chmorgan__esp-audio-player/CMakeFiles/__idf_chmorgan__esp-audio-player.dir/audio_http_stream.cpp.obj
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/chmorgan__esp-audio-player/audio_http_stream.cpp: In function 'esp_err_t http_event_handler(esp_http_client_event_t*)':
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/chmorgan__esp-audio-player/audio_http_stream.cpp:296:12: warning: enumeration value 'HTTP_EVENT_ON_HEADERS_COMPLETE' not handled in switch [-Wswitch]
+  296 |     switch (evt->event_id) {
+      |            ^
+/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/chmorgan__esp-audio-player/audio_http_stream.cpp:296:12: warning: enumeration value 'HTTP_EVENT_ON_STATUS_CODE' not handled in switch [-Wswitch]
+[36/144] Building C object esp-idf/espressif__esp_h264/CMakeFiles/__idf_espressif__esp_h264.dir/hw/src/esp_h264_enc_hw_param.c.obj
+[37/144] Building C object esp-idf/esp_driver_gptimer/CMakeFiles/__idf_esp_driver_gptimer.dir/src/gptimer.c.obj
+ninja: build stopped: subcommand failed.

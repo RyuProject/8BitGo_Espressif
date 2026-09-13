@@ -1,0 +1,4 @@
+dependencies:
+  lvgl/lvgl: "^9.5.0"
+  idf: ">=5.2"
+description: 8BitGo client - CJK font (Alibaba PuHuiTi 16px 4bpp)

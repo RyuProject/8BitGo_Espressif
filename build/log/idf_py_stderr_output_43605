@@ -1,0 +1,11 @@
+Command: ninja all
+CMake Error at /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/tools/cmake/build.cmake:697 (message):
+  [safe-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED]
+  {"count":653,"threshold":500,"scope":"turn","targets":["/Users/zhangwenyu/Documents/GitHub/8bitgo_esp32p4/managed_components/georgik__sdl"],"targetCount":1}
+
+Call Stack (most recent call first):
+  /Users/zhangwenyu/.espressif/v6.0.2/esp-idf/tools/cmake/project.cmake:773 (idf_build_process)
+  CMakeLists.txt:13 (project)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed
